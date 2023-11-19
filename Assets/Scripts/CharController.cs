@@ -7,12 +7,15 @@ public class CharController : MonoBehaviour
 {
     public float speed = 3.0f;
     public float accelerateJump = 3.0f;
-    private Rigidbody2D _rb;
-    private Collider2D _cd;
-    private bool _isGrounded;
+    private Rigidbody2D _rb; //Rigidbody of game object
+    private Collider2D _cd;  // Collider of game object
+    
+    public GameObject leg1;
+    public GameObject leg2;
+    [HideInInspector]
+    public bool isGrounded; 
     
     
-    public bool isGrounded() { return _isGrounded;}
         
     // Start is called before the first frame update
     void Start()
@@ -28,14 +31,17 @@ public class CharController : MonoBehaviour
 
     void Update()
     {
-        Movement();  
-        
+        IsTouchGround();
+        Movement();
     }
     
     private void Movement()
     {
-        if (Input.GetButtonDown("Jump") && _isGrounded)
+        
+        if (Input.GetButtonDown("Jump") && isGrounded) //Check is pressed jump button and 2 Raycast on 2 legs.
         {
+
+            
             print("Jump");
             _rb.velocity = new Vector2(_rb.velocity.x, 2.0f*accelerateJump);
         }
@@ -46,35 +52,28 @@ public class CharController : MonoBehaviour
         }
 
     }
-
-    void OnCollisionEnter2D(Collision2D collision)
+    
+    private void IsTouchGround()
     {
-        if (collision.gameObject.CompareTag("Ground"))
+        if (IsGrounded.ItIsGrounded(leg1.transform.position) |
+            IsGrounded.ItIsGrounded(leg2.transform.position))
         {
-            _isGrounded = true;
+            isGrounded = true;
         }
-    }
-
-    void OnCollisionExit2D(Collision2D collision)
-    {
-        if (collision.gameObject.CompareTag("Ground"))
+        else
         {
-            _isGrounded = false;
+            isGrounded = false;
         }
-        
-        
     }
     
-    void OnCollisionStay2D(Collision2D collision)
-    {
-        if (collision.gameObject.CompareTag("Ground"))
-        {
-            _isGrounded = true;
-        }
     }
 
 
 
 
 
-    }
+
+
+
+
+    

@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class MarioAnimationController : MonoBehaviour
 {
+
+    
+    
     // Start is called before the first frame update 
     private CharController _charController;
     private Rigidbody2D _rb;
@@ -33,6 +36,6 @@ public class MarioAnimationController : MonoBehaviour
             _animator.SetFloat("velocity.x" , _rb.velocity.x*(-1));
         }
         _animator.SetFloat("velocity.y" , _rb.velocity.y);
-        _animator.SetBool(("isGrounded") , _charController.isGrounded());
+        _animator.SetBool(("isGrounded") , _charController.isGrounded);
     }
 }

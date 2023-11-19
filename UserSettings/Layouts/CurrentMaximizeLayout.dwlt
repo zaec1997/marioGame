@@ -1,0 +1,3887 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children:
+  - {fileID: 3}
+  - {fileID: 14}
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 30
+    width: 1662
+    height: 901
+  m_MinSize: {x: 300, y: 100}
+  m_MaxSize: {x: 24288, y: 16192}
+  vertical: 0
+  controlID: -1
+--- !u!114 &2
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ffb9ccd5681bd841ae77e9e5571f770, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Git for Unity
+    m_Image: {fileID: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 1160
+    y: 81
+    width: 510
+    height: 880
+  m_SerializedDataModeController:
+    m_DataMode: 0
+    m_PreferredDataMode: 0
+    m_SupportedDataModes: 
+    isAutomatic: 1
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+    m_OverlaysVisible: 1
+  progressMessageClearTime: -1
+  notificationClearTime: -1
+  timeSinceLastRotation: -1
+  currentBranchAndRemoteHasUpdate: 0
+  currentTrackingStatusHasUpdate: 0
+  currentStatusEntriesHasUpdate: 0
+  repositoryProgressHasUpdate: 0
+  appManagerProgressHasUpdate: 0
+  changeTab: 3
+  activeTab: 3
+  initProjectView:
+    hasCompletedInitialCheck: 0
+    isUserDataPresent: 0
+    lastCheckUserChangedEvent:
+      updatedTimeString: 0001-01-01T00:00:00.000+00:00
+      cacheType: 8
+  branchesView:
+    treeLocals:
+      IsRemote: 0
+      folders:
+        keys:
+        - Local branches
+        values:
+        - path: Local branches
+          label: Local branches
+          level: 0
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 0
+          checkState: 0
+      checkedFileNodes:
+        keys: []
+        values: []
+      title: Local branches
+      pathSeparator: /
+      displayRootNode: 1
+      isSelectable: 1
+      isCheckable: 0
+      nodes:
+      - path: Local branches
+        label: Local branches
+        level: 0
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+      - path: main
+        label: main
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 1
+        treeIsCheckable: 0
+        checkState: 0
+      selectedNode:
+        path: 
+        label: 
+        level: 0
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+    treeRemotes:
+      IsRemote: 1
+      folders:
+        keys:
+        - Remote branches
+        - origin
+        values:
+        - path: Remote branches
+          label: Remote branches
+          level: 0
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 0
+          checkState: 0
+        - path: origin
+          label: origin
+          level: 1
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 0
+          checkState: 0
+      checkedFileNodes:
+        keys: []
+        values: []
+      title: Remote branches
+      pathSeparator: /
+      displayRootNode: 1
+      isSelectable: 1
+      isCheckable: 0
+      nodes:
+      - path: Remote branches
+        label: Remote branches
+        level: 0
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+      - path: origin
+        label: origin
+        level: 1
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+      - path: origin/HEAD
+        label: HEAD
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+      - path: origin/main
+        label: main
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+      selectedNode:
+        path: origin/main
+        label: main
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+    mode: 0
+    newBranchName: 
+    scroll: {x: 0, y: 0}
+    disableDelete: 1
+    disableCreate: 1
+    lastLocalAndRemoteBranchListChangedEvent:
+      updatedTimeString: 2023-11-19T14:46:27.223+02:00
+      cacheType: 2
+    lastCurrentBranchAndRemoteChange:
+      updatedTimeString: 2023-11-19T14:46:26.320+02:00
+      cacheType: 1
+    currentBranch:
+      name: main
+      tracking: origin/main
+    currentRemote:
+      name: origin
+      url: https://github.com/zaec1997/marioGame.git
+      login: 
+      user: 
+      host: 
+      function: 0
+      token: 
+    localBranches:
+    - name: main
+      tracking: origin/main
+    remoteBranches:
+    - name: origin/HEAD
+      tracking: '[None]'
+    - name: origin/main
+      tracking: '[None]'
+  changesView:
+    currentBranchHasUpdate: 0
+    currentStatusEntriesHasUpdate: 0
+    currentLocksHasUpdate: 0
+    commitBody: 
+    commitMessage: 
+    currentBranch: main
+    treeScroll: {x: 0, y: 0}
+    treeChanges:
+      assets:
+        keys: []
+        values: []
+      folders:
+        keys:
+        - Logs
+        values:
+        - path: Logs
+          label: Logs
+          level: 0
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 1
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+      checkedFileNodes:
+        keys: []
+        values: []
+      title: 
+      pathSeparator: \
+      displayRootNode: 0
+      isSelectable: 1
+      isCheckable: 1
+      isUsingGlobalSelection: 1
+      nodes:
+      - path: 
+        label: 
+        level: -1
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: Logs
+        label: Logs
+        level: 0
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 1
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: Logs\AssetImportWorker0.log
+        label: AssetImportWorker0.log
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Logs\AssetImportWorker0.log
+          fullPath: D:\MarioGame\marioGame\Logs\AssetImportWorker0.log
+          projectPath: Logs\AssetImportWorker0.log
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Logs\AssetImportWorker1.log
+        label: AssetImportWorker1.log
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Logs\AssetImportWorker1.log
+          fullPath: D:\MarioGame\marioGame\Logs\AssetImportWorker1.log
+          projectPath: Logs\AssetImportWorker1.log
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      selectedNode:
+        path: 
+        label: 
+        level: 0
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+    gitStatusEntries:
+    - path: Logs\AssetImportWorker0.log
+      fullPath: D:\MarioGame\marioGame\Logs\AssetImportWorker0.log
+      projectPath: Logs\AssetImportWorker0.log
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Logs\AssetImportWorker1.log
+      fullPath: D:\MarioGame\marioGame\Logs\AssetImportWorker1.log
+      projectPath: Logs\AssetImportWorker1.log
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    changedFilesText: 2 changed files
+    lastCurrentBranchChangedEvent:
+      updatedTimeString: 2023-11-19T14:46:26.320+02:00
+      cacheType: 1
+    lastStatusEntriesChangedEvent:
+      updatedTimeString: 0001-01-01T00:00:00.000+00:00
+      cacheType: 6
+    lastLocksChangedEvent:
+      updatedTimeString: 0001-01-01T00:00:00.000+00:00
+      cacheType: 7
+  historyView:
+    currentLogHasUpdate: 0
+    currentTrackingStatusHasUpdate: 0
+    logEntries:
+    - commitID: e542de455fed254ff5ffc0c4364047c97466570c
+      mergeA: 
+      mergeB: 
+      authorName: zaec1997
+      authorEmail: 39388752+zaec1997@users.noreply.github.com
+      commitEmail: 39388752+zaec1997@users.noreply.github.com
+      commitName: zaec1997
+      summary: V0.001
+      description: Move files first time
+      timeString: 2023-11-19T13:43:51.000+02:00
+      commitTimeString: 2023-11-19T13:43:51.000+02:00
+      changes:
+      - path: .gitignore
+        fullPath: D:\MarioGame\marioGame\.gitignore
+        projectPath: .gitignore
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: .idea\.idea.My project (2)\.idea\.gitignore
+        fullPath: D:\MarioGame\marioGame\.idea\.idea.My project (2)\.idea\.gitignore
+        projectPath: .idea\.idea.My project (2)\.idea\.gitignore
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: .idea\.idea.My project (2)\.idea\encodings.xml
+        fullPath: D:\MarioGame\marioGame\.idea\.idea.My project (2)\.idea\encodings.xml
+        projectPath: .idea\.idea.My project (2)\.idea\encodings.xml
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: .idea\.idea.My project (2)\.idea\indexLayout.xml
+        fullPath: D:\MarioGame\marioGame\.idea\.idea.My project (2)\.idea\indexLayout.xml
+        projectPath: .idea\.idea.My project (2)\.idea\indexLayout.xml
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Enemies.meta
+        fullPath: D:\MarioGame\marioGame\Assets\Enemies.meta
+        projectPath: Assets\Enemies.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Enemies\Frog.meta
+        fullPath: D:\MarioGame\marioGame\Assets\Enemies\Frog.meta
+        projectPath: Assets\Enemies\Frog.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Enemies\Frog\Enemy1.png
+        fullPath: D:\MarioGame\marioGame\Assets\Enemies\Frog\Enemy1.png
+        projectPath: Assets\Enemies\Frog\Enemy1.png
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Enemies\Frog\Enemy1.png.meta
+        fullPath: D:\MarioGame\marioGame\Assets\Enemies\Frog\Enemy1.png.meta
+        projectPath: Assets\Enemies\Frog\Enemy1.png.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Enemies\Frog\FrogEnemy.cs
+        fullPath: D:\MarioGame\marioGame\Assets\Enemies\Frog\FrogEnemy.cs
+        projectPath: Assets\Enemies\Frog\FrogEnemy.cs
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Enemies\Frog\FrogEnemy.cs.meta
+        fullPath: D:\MarioGame\marioGame\Assets\Enemies\Frog\FrogEnemy.cs.meta
+        projectPath: Assets\Enemies\Frog\FrogEnemy.cs.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Enemies\Frog\death.anim
+        fullPath: D:\MarioGame\marioGame\Assets\Enemies\Frog\death.anim
+        projectPath: Assets\Enemies\Frog\death.anim
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Enemies\Frog\death.anim.meta
+        fullPath: D:\MarioGame\marioGame\Assets\Enemies\Frog\death.anim.meta
+        projectPath: Assets\Enemies\Frog\death.anim.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Enemies\Frog\frog.controller
+        fullPath: D:\MarioGame\marioGame\Assets\Enemies\Frog\frog.controller
+        projectPath: Assets\Enemies\Frog\frog.controller
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Enemies\Frog\frog.controller.meta
+        fullPath: D:\MarioGame\marioGame\Assets\Enemies\Frog\frog.controller.meta
+        projectPath: Assets\Enemies\Frog\frog.controller.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Enemies\Frog\frogEnemy.prefab
+        fullPath: D:\MarioGame\marioGame\Assets\Enemies\Frog\frogEnemy.prefab
+        projectPath: Assets\Enemies\Frog\frogEnemy.prefab
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Enemies\Frog\frogEnemy.prefab.meta
+        fullPath: D:\MarioGame\marioGame\Assets\Enemies\Frog\frogEnemy.prefab.meta
+        projectPath: Assets\Enemies\Frog\frogEnemy.prefab.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Enemies\Frog\walk.anim
+        fullPath: D:\MarioGame\marioGame\Assets\Enemies\Frog\walk.anim
+        projectPath: Assets\Enemies\Frog\walk.anim
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Enemies\Frog\walk.anim.meta
+        fullPath: D:\MarioGame\marioGame\Assets\Enemies\Frog\walk.anim.meta
+        projectPath: Assets\Enemies\Frog\walk.anim.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Levels.meta
+        fullPath: D:\MarioGame\marioGame\Assets\Levels.meta
+        projectPath: Assets\Levels.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Levels\Level1.unity
+        fullPath: D:\MarioGame\marioGame\Assets\Levels\Level1.unity
+        projectPath: Assets\Levels\Level1.unity
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Levels\Level1.unity.meta
+        fullPath: D:\MarioGame\marioGame\Assets\Levels\Level1.unity.meta
+        projectPath: Assets\Levels\Level1.unity.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Prefabs.meta
+        fullPath: D:\MarioGame\marioGame\Assets\Prefabs.meta
+        projectPath: Assets\Prefabs.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Prefabs\Block.prefab
+        fullPath: D:\MarioGame\marioGame\Assets\Prefabs\Block.prefab
+        projectPath: Assets\Prefabs\Block.prefab
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Prefabs\Block.prefab.meta
+        fullPath: D:\MarioGame\marioGame\Assets\Prefabs\Block.prefab.meta
+        projectPath: Assets\Prefabs\Block.prefab.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Prefabs\mario.prefab
+        fullPath: D:\MarioGame\marioGame\Assets\Prefabs\mario.prefab
+        projectPath: Assets\Prefabs\mario.prefab
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Prefabs\mario.prefab.meta
+        fullPath: D:\MarioGame\marioGame\Assets\Prefabs\mario.prefab.meta
+        projectPath: Assets\Prefabs\mario.prefab.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Scenes.meta
+        fullPath: D:\MarioGame\marioGame\Assets\Scenes.meta
+        projectPath: Assets\Scenes.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Scenes\SampleScene.unity
+        fullPath: D:\MarioGame\marioGame\Assets\Scenes\SampleScene.unity
+        projectPath: Assets\Scenes\SampleScene.unity
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Scenes\SampleScene.unity.meta
+        fullPath: D:\MarioGame\marioGame\Assets\Scenes\SampleScene.unity.meta
+        projectPath: Assets\Scenes\SampleScene.unity.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Scripts.meta
+        fullPath: D:\MarioGame\marioGame\Assets\Scripts.meta
+        projectPath: Assets\Scripts.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Scripts\Block.cs
+        fullPath: D:\MarioGame\marioGame\Assets\Scripts\Block.cs
+        projectPath: Assets\Scripts\Block.cs
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Scripts\Block.cs.meta
+        fullPath: D:\MarioGame\marioGame\Assets\Scripts\Block.cs.meta
+        projectPath: Assets\Scripts\Block.cs.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Scripts\CameraMovement.cs
+        fullPath: D:\MarioGame\marioGame\Assets\Scripts\CameraMovement.cs
+        projectPath: Assets\Scripts\CameraMovement.cs
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Scripts\CameraMovement.cs.meta
+        fullPath: D:\MarioGame\marioGame\Assets\Scripts\CameraMovement.cs.meta
+        projectPath: Assets\Scripts\CameraMovement.cs.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Scripts\CharController.cs
+        fullPath: D:\MarioGame\marioGame\Assets\Scripts\CharController.cs
+        projectPath: Assets\Scripts\CharController.cs
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Scripts\CharController.cs.meta
+        fullPath: D:\MarioGame\marioGame\Assets\Scripts\CharController.cs.meta
+        projectPath: Assets\Scripts\CharController.cs.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Scripts\MarioAnimationController.cs
+        fullPath: D:\MarioGame\marioGame\Assets\Scripts\MarioAnimationController.cs
+        projectPath: Assets\Scripts\MarioAnimationController.cs
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Scripts\MarioAnimationController.cs.meta
+        fullPath: D:\MarioGame\marioGame\Assets\Scripts\MarioAnimationController.cs.meta
+        projectPath: Assets\Scripts\MarioAnimationController.cs.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Scripts\MarioDeath.cs
+        fullPath: D:\MarioGame\marioGame\Assets\Scripts\MarioDeath.cs
+        projectPath: Assets\Scripts\MarioDeath.cs
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Scripts\MarioDeath.cs.meta
+        fullPath: D:\MarioGame\marioGame\Assets\Scripts\MarioDeath.cs.meta
+        projectPath: Assets\Scripts\MarioDeath.cs.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Sounds.meta
+        fullPath: D:\MarioGame\marioGame\Assets\Sounds.meta
+        projectPath: Assets\Sounds.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Sounds\Mario  Luigi Partners in Time - Battle Clear Fanfare.mid
+        fullPath: D:\MarioGame\marioGame\Assets\Sounds\Mario  Luigi Partners in Time
+          - Battle Clear Fanfare.mid
+        projectPath: Assets\Sounds\Mario  Luigi Partners in Time - Battle Clear Fanfare.mid
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Sounds\Mario  Luigi Partners in Time - Battle Clear Fanfare.mid.meta
+        fullPath: D:\MarioGame\marioGame\Assets\Sounds\Mario  Luigi Partners in Time
+          - Battle Clear Fanfare.mid.meta
+        projectPath: Assets\Sounds\Mario  Luigi Partners in Time - Battle Clear Fanfare.mid.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Sounds\New Super Mario Bros - Athletic.mid
+        fullPath: D:\MarioGame\marioGame\Assets\Sounds\New Super Mario Bros - Athletic.mid
+        projectPath: Assets\Sounds\New Super Mario Bros - Athletic.mid
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Sounds\New Super Mario Bros - Athletic.mid.meta
+        fullPath: D:\MarioGame\marioGame\Assets\Sounds\New Super Mario Bros - Athletic.mid.meta
+        projectPath: Assets\Sounds\New Super Mario Bros - Athletic.mid.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Sounds\Super Mario Bros - 1UP.mid
+        fullPath: D:\MarioGame\marioGame\Assets\Sounds\Super Mario Bros - 1UP.mid
+        projectPath: Assets\Sounds\Super Mario Bros - 1UP.mid
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Sounds\Super Mario Bros - 1UP.mid.meta
+        fullPath: D:\MarioGame\marioGame\Assets\Sounds\Super Mario Bros - 1UP.mid.meta
+        projectPath: Assets\Sounds\Super Mario Bros - 1UP.mid.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Sounds\Super Mario Bros - Castle Theme.mid
+        fullPath: D:\MarioGame\marioGame\Assets\Sounds\Super Mario Bros - Castle
+          Theme.mid
+        projectPath: Assets\Sounds\Super Mario Bros - Castle Theme.mid
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Sounds\Super Mario Bros - Castle Theme.mid.meta
+        fullPath: D:\MarioGame\marioGame\Assets\Sounds\Super Mario Bros - Castle
+          Theme.mid.meta
+        projectPath: Assets\Sounds\Super Mario Bros - Castle Theme.mid.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Sounds\Super Mario Bros - Coin.mid
+        fullPath: D:\MarioGame\marioGame\Assets\Sounds\Super Mario Bros - Coin.mid
+        projectPath: Assets\Sounds\Super Mario Bros - Coin.mid
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Sounds\Super Mario Bros - Coin.mid.meta
+        fullPath: D:\MarioGame\marioGame\Assets\Sounds\Super Mario Bros - Coin.mid.meta
+        projectPath: Assets\Sounds\Super Mario Bros - Coin.mid.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Sounds\Super Mario Bros - Game Over.mid
+        fullPath: D:\MarioGame\marioGame\Assets\Sounds\Super Mario Bros - Game Over.mid
+        projectPath: Assets\Sounds\Super Mario Bros - Game Over.mid
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Sounds\Super Mario Bros - Game Over.mid.meta
+        fullPath: D:\MarioGame\marioGame\Assets\Sounds\Super Mario Bros - Game Over.mid.meta
+        projectPath: Assets\Sounds\Super Mario Bros - Game Over.mid.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Sounds\Super Mario Bros - Ground Theme.mid
+        fullPath: D:\MarioGame\marioGame\Assets\Sounds\Super Mario Bros - Ground
+          Theme.mid
+        projectPath: Assets\Sounds\Super Mario Bros - Ground Theme.mid
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Sounds\Super Mario Bros - Ground Theme.mid.meta
+        fullPath: D:\MarioGame\marioGame\Assets\Sounds\Super Mario Bros - Ground
+          Theme.mid.meta
+        projectPath: Assets\Sounds\Super Mario Bros - Ground Theme.mid.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Sprites.meta
+        fullPath: D:\MarioGame\marioGame\Assets\Sprites.meta
+        projectPath: Assets\Sprites.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Sprites\52570.png
+        fullPath: D:\MarioGame\marioGame\Assets\Sprites\52570.png
+        projectPath: Assets\Sprites\52570.png
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Sprites\52570.png.meta
+        fullPath: D:\MarioGame\marioGame\Assets\Sprites\52570.png.meta
+        projectPath: Assets\Sprites\52570.png.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Sprites\Anim.meta
+        fullPath: D:\MarioGame\marioGame\Assets\Sprites\Anim.meta
+        projectPath: Assets\Sprites\Anim.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Sprites\Anim\Block.controller
+        fullPath: D:\MarioGame\marioGame\Assets\Sprites\Anim\Block.controller
+        projectPath: Assets\Sprites\Anim\Block.controller
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Sprites\Anim\Block.controller.meta
+        fullPath: D:\MarioGame\marioGame\Assets\Sprites\Anim\Block.controller.meta
+        projectPath: Assets\Sprites\Anim\Block.controller.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Sprites\Anim\BlockDestroy.anim
+        fullPath: D:\MarioGame\marioGame\Assets\Sprites\Anim\BlockDestroy.anim
+        projectPath: Assets\Sprites\Anim\BlockDestroy.anim
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Sprites\Anim\BlockDestroy.anim.meta
+        fullPath: D:\MarioGame\marioGame\Assets\Sprites\Anim\BlockDestroy.anim.meta
+        projectPath: Assets\Sprites\Anim\BlockDestroy.anim.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Sprites\Anim\DeathMario.anim
+        fullPath: D:\MarioGame\marioGame\Assets\Sprites\Anim\DeathMario.anim
+        projectPath: Assets\Sprites\Anim\DeathMario.anim
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Sprites\Anim\DeathMario.anim.meta
+        fullPath: D:\MarioGame\marioGame\Assets\Sprites\Anim\DeathMario.anim.meta
+        projectPath: Assets\Sprites\Anim\DeathMario.anim.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Sprites\Anim\Idle.anim
+        fullPath: D:\MarioGame\marioGame\Assets\Sprites\Anim\Idle.anim
+        projectPath: Assets\Sprites\Anim\Idle.anim
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Sprites\Anim\Idle.anim.meta
+        fullPath: D:\MarioGame\marioGame\Assets\Sprites\Anim\Idle.anim.meta
+        projectPath: Assets\Sprites\Anim\Idle.anim.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Sprites\Anim\Jump.anim
+        fullPath: D:\MarioGame\marioGame\Assets\Sprites\Anim\Jump.anim
+        projectPath: Assets\Sprites\Anim\Jump.anim
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Sprites\Anim\Jump.anim.meta
+        fullPath: D:\MarioGame\marioGame\Assets\Sprites\Anim\Jump.anim.meta
+        projectPath: Assets\Sprites\Anim\Jump.anim.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Sprites\Anim\runMario.anim
+        fullPath: D:\MarioGame\marioGame\Assets\Sprites\Anim\runMario.anim
+        projectPath: Assets\Sprites\Anim\runMario.anim
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Sprites\Anim\runMario.anim.meta
+        fullPath: D:\MarioGame\marioGame\Assets\Sprites\Anim\runMario.anim.meta
+        projectPath: Assets\Sprites\Anim\runMario.anim.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Sprites\Level.controller
+        fullPath: D:\MarioGame\marioGame\Assets\Sprites\Level.controller
+        projectPath: Assets\Sprites\Level.controller
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Sprites\Level.controller.meta
+        fullPath: D:\MarioGame\marioGame\Assets\Sprites\Level.controller.meta
+        projectPath: Assets\Sprites\Level.controller.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Sprites\NES - Super Mario Bros - Background 1 Mountains.png
+        fullPath: D:\MarioGame\marioGame\Assets\Sprites\NES - Super Mario Bros -
+          Background 1 Mountains.png
+        projectPath: Assets\Sprites\NES - Super Mario Bros - Background 1 Mountains.png
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Sprites\NES - Super Mario Bros - Background 1 Mountains.png.meta
+        fullPath: D:\MarioGame\marioGame\Assets\Sprites\NES - Super Mario Bros -
+          Background 1 Mountains.png.meta
+        projectPath: Assets\Sprites\NES - Super Mario Bros - Background 1 Mountains.png.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Sprites\NES - Super Mario Bros - Background 2 Trees.png
+        fullPath: D:\MarioGame\marioGame\Assets\Sprites\NES - Super Mario Bros -
+          Background 2 Trees.png
+        projectPath: Assets\Sprites\NES - Super Mario Bros - Background 2 Trees.png
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Sprites\NES - Super Mario Bros - Background 2 Trees.png.meta
+        fullPath: D:\MarioGame\marioGame\Assets\Sprites\NES - Super Mario Bros -
+          Background 2 Trees.png.meta
+        projectPath: Assets\Sprites\NES - Super Mario Bros - Background 2 Trees.png.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Sprites\NES - Super Mario Bros - Background 3 Clouds.png
+        fullPath: D:\MarioGame\marioGame\Assets\Sprites\NES - Super Mario Bros -
+          Background 3 Clouds.png
+        projectPath: Assets\Sprites\NES - Super Mario Bros - Background 3 Clouds.png
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Sprites\NES - Super Mario Bros - Background 3 Clouds.png.meta
+        fullPath: D:\MarioGame\marioGame\Assets\Sprites\NES - Super Mario Bros -
+          Background 3 Clouds.png.meta
+        projectPath: Assets\Sprites\NES - Super Mario Bros - Background 3 Clouds.png.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Sprites\NES - Super Mario Bros - Item and Brick Blocks.png
+        fullPath: D:\MarioGame\marioGame\Assets\Sprites\NES - Super Mario Bros -
+          Item and Brick Blocks.png
+        projectPath: Assets\Sprites\NES - Super Mario Bros - Item and Brick Blocks.png
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Sprites\NES - Super Mario Bros - Item and Brick Blocks.png.meta
+        fullPath: D:\MarioGame\marioGame\Assets\Sprites\NES - Super Mario Bros -
+          Item and Brick Blocks.png.meta
+        projectPath: Assets\Sprites\NES - Super Mario Bros - Item and Brick Blocks.png.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Sprites\NES - Super Mario Bros - Items Objects and NPCs.png
+        fullPath: D:\MarioGame\marioGame\Assets\Sprites\NES - Super Mario Bros -
+          Items Objects and NPCs.png
+        projectPath: Assets\Sprites\NES - Super Mario Bros - Items Objects and NPCs.png
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Sprites\NES - Super Mario Bros - Items Objects and NPCs.png.meta
+        fullPath: D:\MarioGame\marioGame\Assets\Sprites\NES - Super Mario Bros -
+          Items Objects and NPCs.png.meta
+        projectPath: Assets\Sprites\NES - Super Mario Bros - Items Objects and NPCs.png.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Sprites\NES - Super Mario Bros - Tileset_2 1.controller
+        fullPath: D:\MarioGame\marioGame\Assets\Sprites\NES - Super Mario Bros -
+          Tileset_2 1.controller
+        projectPath: Assets\Sprites\NES - Super Mario Bros - Tileset_2 1.controller
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Sprites\NES - Super Mario Bros - Tileset_2 1.controller.meta
+        fullPath: D:\MarioGame\marioGame\Assets\Sprites\NES - Super Mario Bros -
+          Tileset_2 1.controller.meta
+        projectPath: Assets\Sprites\NES - Super Mario Bros - Tileset_2 1.controller.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Sprites\NES - Super Mario Bros - Tileset_2.asset
+        fullPath: D:\MarioGame\marioGame\Assets\Sprites\NES - Super Mario Bros -
+          Tileset_2.asset
+        projectPath: Assets\Sprites\NES - Super Mario Bros - Tileset_2.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Sprites\NES - Super Mario Bros - Tileset_2.asset.meta
+        fullPath: D:\MarioGame\marioGame\Assets\Sprites\NES - Super Mario Bros -
+          Tileset_2.asset.meta
+        projectPath: Assets\Sprites\NES - Super Mario Bros - Tileset_2.asset.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Sprites\NES - Super Mario Bros - Tileset_2.controller
+        fullPath: D:\MarioGame\marioGame\Assets\Sprites\NES - Super Mario Bros -
+          Tileset_2.controller
+        projectPath: Assets\Sprites\NES - Super Mario Bros - Tileset_2.controller
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Sprites\NES - Super Mario Bros - Tileset_2.controller.meta
+        fullPath: D:\MarioGame\marioGame\Assets\Sprites\NES - Super Mario Bros -
+          Tileset_2.controller.meta
+        projectPath: Assets\Sprites\NES - Super Mario Bros - Tileset_2.controller.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Sprites\NES - Super Mario Bros - Title Screen HUD and Miscellaneous.png
+        fullPath: D:\MarioGame\marioGame\Assets\Sprites\NES - Super Mario Bros -
+          Title Screen HUD and Miscellaneous.png
+        projectPath: Assets\Sprites\NES - Super Mario Bros - Title Screen HUD and
+          Miscellaneous.png
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Sprites\NES - Super Mario Bros - Title Screen HUD and Miscellaneous.png.meta
+        fullPath: D:\MarioGame\marioGame\Assets\Sprites\NES - Super Mario Bros -
+          Title Screen HUD and Miscellaneous.png.meta
+        projectPath: Assets\Sprites\NES - Super Mario Bros - Title Screen HUD and
+          Miscellaneous.png.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Sprites\NES - Super Mario Bros - World 1-1 1.png
+        fullPath: D:\MarioGame\marioGame\Assets\Sprites\NES - Super Mario Bros -
+          World 1-1 1.png
+        projectPath: Assets\Sprites\NES - Super Mario Bros - World 1-1 1.png
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Sprites\NES - Super Mario Bros - World 1-1 1.png.meta
+        fullPath: D:\MarioGame\marioGame\Assets\Sprites\NES - Super Mario Bros -
+          World 1-1 1.png.meta
+        projectPath: Assets\Sprites\NES - Super Mario Bros - World 1-1 1.png.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Sprites\NES - Super Mario Bros - World 1-1.png
+        fullPath: D:\MarioGame\marioGame\Assets\Sprites\NES - Super Mario Bros -
+          World 1-1.png
+        projectPath: Assets\Sprites\NES - Super Mario Bros - World 1-1.png
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Sprites\NES - Super Mario Bros - World 1-1.png.meta
+        fullPath: D:\MarioGame\marioGame\Assets\Sprites\NES - Super Mario Bros -
+          World 1-1.png.meta
+        projectPath: Assets\Sprites\NES - Super Mario Bros - World 1-1.png.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Sprites\Pallete.meta
+        fullPath: D:\MarioGame\marioGame\Assets\Sprites\Pallete.meta
+        projectPath: Assets\Sprites\Pallete.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Sprites\Pallete\NES - Super Mario Bros - Tileset_0.asset
+        fullPath: D:\MarioGame\marioGame\Assets\Sprites\Pallete\NES - Super Mario
+          Bros - Tileset_0.asset
+        projectPath: Assets\Sprites\Pallete\NES - Super Mario Bros - Tileset_0.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Sprites\Pallete\NES - Super Mario Bros - Tileset_0.asset.meta
+        fullPath: D:\MarioGame\marioGame\Assets\Sprites\Pallete\NES - Super Mario
+          Bros - Tileset_0.asset.meta
+        projectPath: Assets\Sprites\Pallete\NES - Super Mario Bros - Tileset_0.asset.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Sprites\Pallete\NES - Super Mario Bros - Tileset_1.asset
+        fullPath: D:\MarioGame\marioGame\Assets\Sprites\Pallete\NES - Super Mario
+          Bros - Tileset_1.asset
+        projectPath: Assets\Sprites\Pallete\NES - Super Mario Bros - Tileset_1.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Sprites\Pallete\NES - Super Mario Bros - Tileset_1.asset.meta
+        fullPath: D:\MarioGame\marioGame\Assets\Sprites\Pallete\NES - Super Mario
+          Bros - Tileset_1.asset.meta
+        projectPath: Assets\Sprites\Pallete\NES - Super Mario Bros - Tileset_1.asset.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Sprites\Pallete\NES - Super Mario Bros - Tileset_2.asset
+        fullPath: D:\MarioGame\marioGame\Assets\Sprites\Pallete\NES - Super Mario
+          Bros - Tileset_2.asset
+        projectPath: Assets\Sprites\Pallete\NES - Super Mario Bros - Tileset_2.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Sprites\Pallete\NES - Super Mario Bros - Tileset_2.asset.meta
+        fullPath: D:\MarioGame\marioGame\Assets\Sprites\Pallete\NES - Super Mario
+          Bros - Tileset_2.asset.meta
+        projectPath: Assets\Sprites\Pallete\NES - Super Mario Bros - Tileset_2.asset.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Sprites\Pallete\NES - Super Mario Bros - Tileset_3.asset
+        fullPath: D:\MarioGame\marioGame\Assets\Sprites\Pallete\NES - Super Mario
+          Bros - Tileset_3.asset
+        projectPath: Assets\Sprites\Pallete\NES - Super Mario Bros - Tileset_3.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Sprites\Pallete\NES - Super Mario Bros - Tileset_3.asset.meta
+        fullPath: D:\MarioGame\marioGame\Assets\Sprites\Pallete\NES - Super Mario
+          Bros - Tileset_3.asset.meta
+        projectPath: Assets\Sprites\Pallete\NES - Super Mario Bros - Tileset_3.asset.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Sprites\Pallete\NES - Super Mario Bros - Tileset_4.asset
+        fullPath: D:\MarioGame\marioGame\Assets\Sprites\Pallete\NES - Super Mario
+          Bros - Tileset_4.asset
+        projectPath: Assets\Sprites\Pallete\NES - Super Mario Bros - Tileset_4.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Sprites\Pallete\NES - Super Mario Bros - Tileset_4.asset.meta
+        fullPath: D:\MarioGame\marioGame\Assets\Sprites\Pallete\NES - Super Mario
+          Bros - Tileset_4.asset.meta
+        projectPath: Assets\Sprites\Pallete\NES - Super Mario Bros - Tileset_4.asset.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Sprites\Pallete\NES - Super Mario Bros - Tileset_5.asset
+        fullPath: D:\MarioGame\marioGame\Assets\Sprites\Pallete\NES - Super Mario
+          Bros - Tileset_5.asset
+        projectPath: Assets\Sprites\Pallete\NES - Super Mario Bros - Tileset_5.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Sprites\Pallete\NES - Super Mario Bros - Tileset_5.asset.meta
+        fullPath: D:\MarioGame\marioGame\Assets\Sprites\Pallete\NES - Super Mario
+          Bros - Tileset_5.asset.meta
+        projectPath: Assets\Sprites\Pallete\NES - Super Mario Bros - Tileset_5.asset.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Sprites\Pallete\NES - Super Mario Bros - Tileset_6.asset
+        fullPath: D:\MarioGame\marioGame\Assets\Sprites\Pallete\NES - Super Mario
+          Bros - Tileset_6.asset
+        projectPath: Assets\Sprites\Pallete\NES - Super Mario Bros - Tileset_6.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Sprites\Pallete\NES - Super Mario Bros - Tileset_6.asset.meta
+        fullPath: D:\MarioGame\marioGame\Assets\Sprites\Pallete\NES - Super Mario
+          Bros - Tileset_6.asset.meta
+        projectPath: Assets\Sprites\Pallete\NES - Super Mario Bros - Tileset_6.asset.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Sprites\Pallete\NES - Super Mario Bros - Tileset_7.asset
+        fullPath: D:\MarioGame\marioGame\Assets\Sprites\Pallete\NES - Super Mario
+          Bros - Tileset_7.asset
+        projectPath: Assets\Sprites\Pallete\NES - Super Mario Bros - Tileset_7.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Sprites\Pallete\NES - Super Mario Bros - Tileset_7.asset.meta
+        fullPath: D:\MarioGame\marioGame\Assets\Sprites\Pallete\NES - Super Mario
+          Bros - Tileset_7.asset.meta
+        projectPath: Assets\Sprites\Pallete\NES - Super Mario Bros - Tileset_7.asset.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Sprites\Pallete\NES - Super Mario Bros - Tileset_8.asset
+        fullPath: D:\MarioGame\marioGame\Assets\Sprites\Pallete\NES - Super Mario
+          Bros - Tileset_8.asset
+        projectPath: Assets\Sprites\Pallete\NES - Super Mario Bros - Tileset_8.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Sprites\Pallete\NES - Super Mario Bros - Tileset_8.asset.meta
+        fullPath: D:\MarioGame\marioGame\Assets\Sprites\Pallete\NES - Super Mario
+          Bros - Tileset_8.asset.meta
+        projectPath: Assets\Sprites\Pallete\NES - Super Mario Bros - Tileset_8.asset.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Sprites\Pallete\NES - Super Mario Bros - Tileset_9.asset
+        fullPath: D:\MarioGame\marioGame\Assets\Sprites\Pallete\NES - Super Mario
+          Bros - Tileset_9.asset
+        projectPath: Assets\Sprites\Pallete\NES - Super Mario Bros - Tileset_9.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Sprites\Pallete\NES - Super Mario Bros - Tileset_9.asset.meta
+        fullPath: D:\MarioGame\marioGame\Assets\Sprites\Pallete\NES - Super Mario
+          Bros - Tileset_9.asset.meta
+        projectPath: Assets\Sprites\Pallete\NES - Super Mario Bros - Tileset_9.asset.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Sprites\ParticleBlockDestroy.mat
+        fullPath: D:\MarioGame\marioGame\Assets\Sprites\ParticleBlockDestroy.mat
+        projectPath: Assets\Sprites\ParticleBlockDestroy.mat
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Sprites\ParticleBlockDestroy.mat.meta
+        fullPath: D:\MarioGame\marioGame\Assets\Sprites\ParticleBlockDestroy.mat.meta
+        projectPath: Assets\Sprites\ParticleBlockDestroy.mat.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Sprites\Tiles.meta
+        fullPath: D:\MarioGame\marioGame\Assets\Sprites\Tiles.meta
+        projectPath: Assets\Sprites\Tiles.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Sprites\Tiles\gras.prefab
+        fullPath: D:\MarioGame\marioGame\Assets\Sprites\Tiles\gras.prefab
+        projectPath: Assets\Sprites\Tiles\gras.prefab
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Sprites\Tiles\gras.prefab.meta
+        fullPath: D:\MarioGame\marioGame\Assets\Sprites\Tiles\gras.prefab.meta
+        projectPath: Assets\Sprites\Tiles\gras.prefab.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Sprites\Tlles.png
+        fullPath: D:\MarioGame\marioGame\Assets\Sprites\Tlles.png
+        projectPath: Assets\Sprites\Tlles.png
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Sprites\Tlles.png.meta
+        fullPath: D:\MarioGame\marioGame\Assets\Sprites\Tlles.png.meta
+        projectPath: Assets\Sprites\Tlles.png.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Sprites\Untitled.png
+        fullPath: D:\MarioGame\marioGame\Assets\Sprites\Untitled.png
+        projectPath: Assets\Sprites\Untitled.png
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Sprites\Untitled.png.meta
+        fullPath: D:\MarioGame\marioGame\Assets\Sprites\Untitled.png.meta
+        projectPath: Assets\Sprites\Untitled.png.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Sprites\mario 1.png
+        fullPath: D:\MarioGame\marioGame\Assets\Sprites\mario 1.png
+        projectPath: Assets\Sprites\mario 1.png
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Sprites\mario 1.png.meta
+        fullPath: D:\MarioGame\marioGame\Assets\Sprites\mario 1.png.meta
+        projectPath: Assets\Sprites\mario 1.png.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Sprites\mario.png
+        fullPath: D:\MarioGame\marioGame\Assets\Sprites\mario.png
+        projectPath: Assets\Sprites\mario.png
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Sprites\mario.png.meta
+        fullPath: D:\MarioGame\marioGame\Assets\Sprites\mario.png.meta
+        projectPath: Assets\Sprites\mario.png.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Sprites\mario_0.controller
+        fullPath: D:\MarioGame\marioGame\Assets\Sprites\mario_0.controller
+        projectPath: Assets\Sprites\mario_0.controller
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Sprites\mario_0.controller.meta
+        fullPath: D:\MarioGame\marioGame\Assets\Sprites\mario_0.controller.meta
+        projectPath: Assets\Sprites\mario_0.controller.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Sprites\png-transparent-brick-wall-cement-beautiful-orange-bricks-building-rectangle-orange.png
+        fullPath: D:\MarioGame\marioGame\Assets\Sprites\png-transparent-brick-wall-cement-beautiful-orange-bricks-building-rectangle-orange.png
+        projectPath: Assets\Sprites\png-transparent-brick-wall-cement-beautiful-orange-bricks-building-rectangle-orange.png
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Sprites\png-transparent-brick-wall-cement-beautiful-orange-bricks-building-rectangle-orange.png.meta
+        fullPath: D:\MarioGame\marioGame\Assets\Sprites\png-transparent-brick-wall-cement-beautiful-orange-bricks-building-rectangle-orange.png.meta
+        projectPath: Assets\Sprites\png-transparent-brick-wall-cement-beautiful-orange-bricks-building-rectangle-orange.png.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\block.png
+        fullPath: D:\MarioGame\marioGame\Assets\block.png
+        projectPath: Assets\block.png
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\block.png.meta
+        fullPath: D:\MarioGame\marioGame\Assets\block.png.meta
+        projectPath: Assets\block.png.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\mario.physicsMaterial2D
+        fullPath: D:\MarioGame\marioGame\Assets\mario.physicsMaterial2D
+        projectPath: Assets\mario.physicsMaterial2D
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\mario.physicsMaterial2D.meta
+        fullPath: D:\MarioGame\marioGame\Assets\mario.physicsMaterial2D.meta
+        projectPath: Assets\mario.physicsMaterial2D.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Logs\Packages-Update.log
+        fullPath: D:\MarioGame\marioGame\Logs\Packages-Update.log
+        projectPath: Logs\Packages-Update.log
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Logs\shadercompiler-UnityShaderCompiler.exe0.log
+        fullPath: D:\MarioGame\marioGame\Logs\shadercompiler-UnityShaderCompiler.exe0.log
+        projectPath: Logs\shadercompiler-UnityShaderCompiler.exe0.log
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Packages\manifest.json
+        fullPath: D:\MarioGame\marioGame\Packages\manifest.json
+        projectPath: Packages\manifest.json
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Packages\packages-lock.json
+        fullPath: D:\MarioGame\marioGame\Packages\packages-lock.json
+        projectPath: Packages\packages-lock.json
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\AudioManager.asset
+        fullPath: D:\MarioGame\marioGame\ProjectSettings\AudioManager.asset
+        projectPath: ProjectSettings\AudioManager.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\BurstAotSettings_StandaloneWindows.json
+        fullPath: D:\MarioGame\marioGame\ProjectSettings\BurstAotSettings_StandaloneWindows.json
+        projectPath: ProjectSettings\BurstAotSettings_StandaloneWindows.json
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\ClusterInputManager.asset
+        fullPath: D:\MarioGame\marioGame\ProjectSettings\ClusterInputManager.asset
+        projectPath: ProjectSettings\ClusterInputManager.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\CommonBurstAotSettings.json
+        fullPath: D:\MarioGame\marioGame\ProjectSettings\CommonBurstAotSettings.json
+        projectPath: ProjectSettings\CommonBurstAotSettings.json
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\DynamicsManager.asset
+        fullPath: D:\MarioGame\marioGame\ProjectSettings\DynamicsManager.asset
+        projectPath: ProjectSettings\DynamicsManager.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\EditorBuildSettings.asset
+        fullPath: D:\MarioGame\marioGame\ProjectSettings\EditorBuildSettings.asset
+        projectPath: ProjectSettings\EditorBuildSettings.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\EditorSettings.asset
+        fullPath: D:\MarioGame\marioGame\ProjectSettings\EditorSettings.asset
+        projectPath: ProjectSettings\EditorSettings.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\GraphicsSettings.asset
+        fullPath: D:\MarioGame\marioGame\ProjectSettings\GraphicsSettings.asset
+        projectPath: ProjectSettings\GraphicsSettings.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\InputManager.asset
+        fullPath: D:\MarioGame\marioGame\ProjectSettings\InputManager.asset
+        projectPath: ProjectSettings\InputManager.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\MemorySettings.asset
+        fullPath: D:\MarioGame\marioGame\ProjectSettings\MemorySettings.asset
+        projectPath: ProjectSettings\MemorySettings.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\NavMeshAreas.asset
+        fullPath: D:\MarioGame\marioGame\ProjectSettings\NavMeshAreas.asset
+        projectPath: ProjectSettings\NavMeshAreas.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\NetworkManager.asset
+        fullPath: D:\MarioGame\marioGame\ProjectSettings\NetworkManager.asset
+        projectPath: ProjectSettings\NetworkManager.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\PackageManagerSettings.asset
+        fullPath: D:\MarioGame\marioGame\ProjectSettings\PackageManagerSettings.asset
+        projectPath: ProjectSettings\PackageManagerSettings.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\Physics2DSettings.asset
+        fullPath: D:\MarioGame\marioGame\ProjectSettings\Physics2DSettings.asset
+        projectPath: ProjectSettings\Physics2DSettings.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\PresetManager.asset
+        fullPath: D:\MarioGame\marioGame\ProjectSettings\PresetManager.asset
+        projectPath: ProjectSettings\PresetManager.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\ProjectSettings.asset
+        fullPath: D:\MarioGame\marioGame\ProjectSettings\ProjectSettings.asset
+        projectPath: ProjectSettings\ProjectSettings.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\ProjectVersion.txt
+        fullPath: D:\MarioGame\marioGame\ProjectSettings\ProjectVersion.txt
+        projectPath: ProjectSettings\ProjectVersion.txt
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\QualitySettings.asset
+        fullPath: D:\MarioGame\marioGame\ProjectSettings\QualitySettings.asset
+        projectPath: ProjectSettings\QualitySettings.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\SceneTemplateSettings.json
+        fullPath: D:\MarioGame\marioGame\ProjectSettings\SceneTemplateSettings.json
+        projectPath: ProjectSettings\SceneTemplateSettings.json
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\TagManager.asset
+        fullPath: D:\MarioGame\marioGame\ProjectSettings\TagManager.asset
+        projectPath: ProjectSettings\TagManager.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\TimeManager.asset
+        fullPath: D:\MarioGame\marioGame\ProjectSettings\TimeManager.asset
+        projectPath: ProjectSettings\TimeManager.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\UnityConnectSettings.asset
+        fullPath: D:\MarioGame\marioGame\ProjectSettings\UnityConnectSettings.asset
+        projectPath: ProjectSettings\UnityConnectSettings.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\VFXManager.asset
+        fullPath: D:\MarioGame\marioGame\ProjectSettings\VFXManager.asset
+        projectPath: ProjectSettings\VFXManager.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\VersionControlSettings.asset
+        fullPath: D:\MarioGame\marioGame\ProjectSettings\VersionControlSettings.asset
+        projectPath: ProjectSettings\VersionControlSettings.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\XRSettings.asset
+        fullPath: D:\MarioGame\marioGame\ProjectSettings\XRSettings.asset
+        projectPath: ProjectSettings\XRSettings.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: UserSettings\EditorUserSettings.asset
+        fullPath: D:\MarioGame\marioGame\UserSettings\EditorUserSettings.asset
+        projectPath: UserSettings\EditorUserSettings.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: UserSettings\Layouts\default-2022.dwlt
+        fullPath: D:\MarioGame\marioGame\UserSettings\Layouts\default-2022.dwlt
+        projectPath: UserSettings\Layouts\default-2022.dwlt
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: UserSettings\Search.index
+        fullPath: D:\MarioGame\marioGame\UserSettings\Search.index
+        projectPath: UserSettings\Search.index
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: UserSettings\Search.settings
+        fullPath: D:\MarioGame\marioGame\UserSettings\Search.settings
+        projectPath: UserSettings\Search.settings
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+    - commitID: d5d325ec965d082cccaba354f1c9b416b70a1dc1
+      mergeA: 
+      mergeB: 
+      authorName: zaec1997
+      authorEmail: 39388752+zaec1997@users.noreply.github.com
+      commitEmail: 39388752+zaec1997@users.noreply.github.com
+      commitName: zaec1997
+      summary: Initial commit
+      description: 
+      timeString: 2023-11-19T13:09:01.000+02:00
+      commitTimeString: 2023-11-19T13:09:01.000+02:00
+      changes:
+      - path: .gitattributes
+        fullPath: D:\MarioGame\marioGame\.gitattributes
+        projectPath: .gitattributes
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+    statusAhead: 0
+    lastLogChangedEvent:
+      updatedTimeString: 0001-01-01T00:00:00.000+00:00
+      cacheType: 3
+    lastTrackingStatusChangedEvent:
+      updatedTimeString: 0001-01-01T00:00:00.000+00:00
+      cacheType: 5
+    historyControl:
+      scroll: {x: 0, y: 0}
+      entries:
+      - commitID: e542de455fed254ff5ffc0c4364047c97466570c
+        mergeA: 
+        mergeB: 
+        authorName: zaec1997
+        authorEmail: 39388752+zaec1997@users.noreply.github.com
+        commitEmail: 39388752+zaec1997@users.noreply.github.com
+        commitName: zaec1997
+        summary: V0.001
+        description: Move files first time
+        timeString: 2023-11-19T13:43:51.000+02:00
+        commitTimeString: 2023-11-19T13:43:51.000+02:00
+        changes:
+        - path: .gitignore
+          fullPath: D:\MarioGame\marioGame\.gitignore
+          projectPath: .gitignore
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: .idea\.idea.My project (2)\.idea\.gitignore
+          fullPath: D:\MarioGame\marioGame\.idea\.idea.My project (2)\.idea\.gitignore
+          projectPath: .idea\.idea.My project (2)\.idea\.gitignore
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: .idea\.idea.My project (2)\.idea\encodings.xml
+          fullPath: D:\MarioGame\marioGame\.idea\.idea.My project (2)\.idea\encodings.xml
+          projectPath: .idea\.idea.My project (2)\.idea\encodings.xml
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: .idea\.idea.My project (2)\.idea\indexLayout.xml
+          fullPath: D:\MarioGame\marioGame\.idea\.idea.My project (2)\.idea\indexLayout.xml
+          projectPath: .idea\.idea.My project (2)\.idea\indexLayout.xml
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Enemies.meta
+          fullPath: D:\MarioGame\marioGame\Assets\Enemies.meta
+          projectPath: Assets\Enemies.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Enemies\Frog.meta
+          fullPath: D:\MarioGame\marioGame\Assets\Enemies\Frog.meta
+          projectPath: Assets\Enemies\Frog.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Enemies\Frog\Enemy1.png
+          fullPath: D:\MarioGame\marioGame\Assets\Enemies\Frog\Enemy1.png
+          projectPath: Assets\Enemies\Frog\Enemy1.png
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Enemies\Frog\Enemy1.png.meta
+          fullPath: D:\MarioGame\marioGame\Assets\Enemies\Frog\Enemy1.png.meta
+          projectPath: Assets\Enemies\Frog\Enemy1.png.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Enemies\Frog\FrogEnemy.cs
+          fullPath: D:\MarioGame\marioGame\Assets\Enemies\Frog\FrogEnemy.cs
+          projectPath: Assets\Enemies\Frog\FrogEnemy.cs
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Enemies\Frog\FrogEnemy.cs.meta
+          fullPath: D:\MarioGame\marioGame\Assets\Enemies\Frog\FrogEnemy.cs.meta
+          projectPath: Assets\Enemies\Frog\FrogEnemy.cs.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Enemies\Frog\death.anim
+          fullPath: D:\MarioGame\marioGame\Assets\Enemies\Frog\death.anim
+          projectPath: Assets\Enemies\Frog\death.anim
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Enemies\Frog\death.anim.meta
+          fullPath: D:\MarioGame\marioGame\Assets\Enemies\Frog\death.anim.meta
+          projectPath: Assets\Enemies\Frog\death.anim.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Enemies\Frog\frog.controller
+          fullPath: D:\MarioGame\marioGame\Assets\Enemies\Frog\frog.controller
+          projectPath: Assets\Enemies\Frog\frog.controller
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Enemies\Frog\frog.controller.meta
+          fullPath: D:\MarioGame\marioGame\Assets\Enemies\Frog\frog.controller.meta
+          projectPath: Assets\Enemies\Frog\frog.controller.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Enemies\Frog\frogEnemy.prefab
+          fullPath: D:\MarioGame\marioGame\Assets\Enemies\Frog\frogEnemy.prefab
+          projectPath: Assets\Enemies\Frog\frogEnemy.prefab
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Enemies\Frog\frogEnemy.prefab.meta
+          fullPath: D:\MarioGame\marioGame\Assets\Enemies\Frog\frogEnemy.prefab.meta
+          projectPath: Assets\Enemies\Frog\frogEnemy.prefab.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Enemies\Frog\walk.anim
+          fullPath: D:\MarioGame\marioGame\Assets\Enemies\Frog\walk.anim
+          projectPath: Assets\Enemies\Frog\walk.anim
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Enemies\Frog\walk.anim.meta
+          fullPath: D:\MarioGame\marioGame\Assets\Enemies\Frog\walk.anim.meta
+          projectPath: Assets\Enemies\Frog\walk.anim.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Levels.meta
+          fullPath: D:\MarioGame\marioGame\Assets\Levels.meta
+          projectPath: Assets\Levels.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Levels\Level1.unity
+          fullPath: D:\MarioGame\marioGame\Assets\Levels\Level1.unity
+          projectPath: Assets\Levels\Level1.unity
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Levels\Level1.unity.meta
+          fullPath: D:\MarioGame\marioGame\Assets\Levels\Level1.unity.meta
+          projectPath: Assets\Levels\Level1.unity.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Prefabs.meta
+          fullPath: D:\MarioGame\marioGame\Assets\Prefabs.meta
+          projectPath: Assets\Prefabs.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Prefabs\Block.prefab
+          fullPath: D:\MarioGame\marioGame\Assets\Prefabs\Block.prefab
+          projectPath: Assets\Prefabs\Block.prefab
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Prefabs\Block.prefab.meta
+          fullPath: D:\MarioGame\marioGame\Assets\Prefabs\Block.prefab.meta
+          projectPath: Assets\Prefabs\Block.prefab.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Prefabs\mario.prefab
+          fullPath: D:\MarioGame\marioGame\Assets\Prefabs\mario.prefab
+          projectPath: Assets\Prefabs\mario.prefab
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Prefabs\mario.prefab.meta
+          fullPath: D:\MarioGame\marioGame\Assets\Prefabs\mario.prefab.meta
+          projectPath: Assets\Prefabs\mario.prefab.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Scenes.meta
+          fullPath: D:\MarioGame\marioGame\Assets\Scenes.meta
+          projectPath: Assets\Scenes.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Scenes\SampleScene.unity
+          fullPath: D:\MarioGame\marioGame\Assets\Scenes\SampleScene.unity
+          projectPath: Assets\Scenes\SampleScene.unity
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Scenes\SampleScene.unity.meta
+          fullPath: D:\MarioGame\marioGame\Assets\Scenes\SampleScene.unity.meta
+          projectPath: Assets\Scenes\SampleScene.unity.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Scripts.meta
+          fullPath: D:\MarioGame\marioGame\Assets\Scripts.meta
+          projectPath: Assets\Scripts.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Scripts\Block.cs
+          fullPath: D:\MarioGame\marioGame\Assets\Scripts\Block.cs
+          projectPath: Assets\Scripts\Block.cs
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Scripts\Block.cs.meta
+          fullPath: D:\MarioGame\marioGame\Assets\Scripts\Block.cs.meta
+          projectPath: Assets\Scripts\Block.cs.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Scripts\CameraMovement.cs
+          fullPath: D:\MarioGame\marioGame\Assets\Scripts\CameraMovement.cs
+          projectPath: Assets\Scripts\CameraMovement.cs
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Scripts\CameraMovement.cs.meta
+          fullPath: D:\MarioGame\marioGame\Assets\Scripts\CameraMovement.cs.meta
+          projectPath: Assets\Scripts\CameraMovement.cs.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Scripts\CharController.cs
+          fullPath: D:\MarioGame\marioGame\Assets\Scripts\CharController.cs
+          projectPath: Assets\Scripts\CharController.cs
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Scripts\CharController.cs.meta
+          fullPath: D:\MarioGame\marioGame\Assets\Scripts\CharController.cs.meta
+          projectPath: Assets\Scripts\CharController.cs.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Scripts\MarioAnimationController.cs
+          fullPath: D:\MarioGame\marioGame\Assets\Scripts\MarioAnimationController.cs
+          projectPath: Assets\Scripts\MarioAnimationController.cs
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Scripts\MarioAnimationController.cs.meta
+          fullPath: D:\MarioGame\marioGame\Assets\Scripts\MarioAnimationController.cs.meta
+          projectPath: Assets\Scripts\MarioAnimationController.cs.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Scripts\MarioDeath.cs
+          fullPath: D:\MarioGame\marioGame\Assets\Scripts\MarioDeath.cs
+          projectPath: Assets\Scripts\MarioDeath.cs
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Scripts\MarioDeath.cs.meta
+          fullPath: D:\MarioGame\marioGame\Assets\Scripts\MarioDeath.cs.meta
+          projectPath: Assets\Scripts\MarioDeath.cs.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Sounds.meta
+          fullPath: D:\MarioGame\marioGame\Assets\Sounds.meta
+          projectPath: Assets\Sounds.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Sounds\Mario  Luigi Partners in Time - Battle Clear Fanfare.mid
+          fullPath: D:\MarioGame\marioGame\Assets\Sounds\Mario  Luigi Partners in
+            Time - Battle Clear Fanfare.mid
+          projectPath: Assets\Sounds\Mario  Luigi Partners in Time - Battle Clear
+            Fanfare.mid
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Sounds\Mario  Luigi Partners in Time - Battle Clear Fanfare.mid.meta
+          fullPath: D:\MarioGame\marioGame\Assets\Sounds\Mario  Luigi Partners in
+            Time - Battle Clear Fanfare.mid.meta
+          projectPath: Assets\Sounds\Mario  Luigi Partners in Time - Battle Clear
+            Fanfare.mid.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Sounds\New Super Mario Bros - Athletic.mid
+          fullPath: D:\MarioGame\marioGame\Assets\Sounds\New Super Mario Bros - Athletic.mid
+          projectPath: Assets\Sounds\New Super Mario Bros - Athletic.mid
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Sounds\New Super Mario Bros - Athletic.mid.meta
+          fullPath: D:\MarioGame\marioGame\Assets\Sounds\New Super Mario Bros - Athletic.mid.meta
+          projectPath: Assets\Sounds\New Super Mario Bros - Athletic.mid.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Sounds\Super Mario Bros - 1UP.mid
+          fullPath: D:\MarioGame\marioGame\Assets\Sounds\Super Mario Bros - 1UP.mid
+          projectPath: Assets\Sounds\Super Mario Bros - 1UP.mid
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Sounds\Super Mario Bros - 1UP.mid.meta
+          fullPath: D:\MarioGame\marioGame\Assets\Sounds\Super Mario Bros - 1UP.mid.meta
+          projectPath: Assets\Sounds\Super Mario Bros - 1UP.mid.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Sounds\Super Mario Bros - Castle Theme.mid
+          fullPath: D:\MarioGame\marioGame\Assets\Sounds\Super Mario Bros - Castle
+            Theme.mid
+          projectPath: Assets\Sounds\Super Mario Bros - Castle Theme.mid
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Sounds\Super Mario Bros - Castle Theme.mid.meta
+          fullPath: D:\MarioGame\marioGame\Assets\Sounds\Super Mario Bros - Castle
+            Theme.mid.meta
+          projectPath: Assets\Sounds\Super Mario Bros - Castle Theme.mid.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Sounds\Super Mario Bros - Coin.mid
+          fullPath: D:\MarioGame\marioGame\Assets\Sounds\Super Mario Bros - Coin.mid
+          projectPath: Assets\Sounds\Super Mario Bros - Coin.mid
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Sounds\Super Mario Bros - Coin.mid.meta
+          fullPath: D:\MarioGame\marioGame\Assets\Sounds\Super Mario Bros - Coin.mid.meta
+          projectPath: Assets\Sounds\Super Mario Bros - Coin.mid.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Sounds\Super Mario Bros - Game Over.mid
+          fullPath: D:\MarioGame\marioGame\Assets\Sounds\Super Mario Bros - Game
+            Over.mid
+          projectPath: Assets\Sounds\Super Mario Bros - Game Over.mid
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Sounds\Super Mario Bros - Game Over.mid.meta
+          fullPath: D:\MarioGame\marioGame\Assets\Sounds\Super Mario Bros - Game
+            Over.mid.meta
+          projectPath: Assets\Sounds\Super Mario Bros - Game Over.mid.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Sounds\Super Mario Bros - Ground Theme.mid
+          fullPath: D:\MarioGame\marioGame\Assets\Sounds\Super Mario Bros - Ground
+            Theme.mid
+          projectPath: Assets\Sounds\Super Mario Bros - Ground Theme.mid
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Sounds\Super Mario Bros - Ground Theme.mid.meta
+          fullPath: D:\MarioGame\marioGame\Assets\Sounds\Super Mario Bros - Ground
+            Theme.mid.meta
+          projectPath: Assets\Sounds\Super Mario Bros - Ground Theme.mid.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Sprites.meta
+          fullPath: D:\MarioGame\marioGame\Assets\Sprites.meta
+          projectPath: Assets\Sprites.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Sprites\52570.png
+          fullPath: D:\MarioGame\marioGame\Assets\Sprites\52570.png
+          projectPath: Assets\Sprites\52570.png
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Sprites\52570.png.meta
+          fullPath: D:\MarioGame\marioGame\Assets\Sprites\52570.png.meta
+          projectPath: Assets\Sprites\52570.png.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Sprites\Anim.meta
+          fullPath: D:\MarioGame\marioGame\Assets\Sprites\Anim.meta
+          projectPath: Assets\Sprites\Anim.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Sprites\Anim\Block.controller
+          fullPath: D:\MarioGame\marioGame\Assets\Sprites\Anim\Block.controller
+          projectPath: Assets\Sprites\Anim\Block.controller
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Sprites\Anim\Block.controller.meta
+          fullPath: D:\MarioGame\marioGame\Assets\Sprites\Anim\Block.controller.meta
+          projectPath: Assets\Sprites\Anim\Block.controller.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Sprites\Anim\BlockDestroy.anim
+          fullPath: D:\MarioGame\marioGame\Assets\Sprites\Anim\BlockDestroy.anim
+          projectPath: Assets\Sprites\Anim\BlockDestroy.anim
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Sprites\Anim\BlockDestroy.anim.meta
+          fullPath: D:\MarioGame\marioGame\Assets\Sprites\Anim\BlockDestroy.anim.meta
+          projectPath: Assets\Sprites\Anim\BlockDestroy.anim.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Sprites\Anim\DeathMario.anim
+          fullPath: D:\MarioGame\marioGame\Assets\Sprites\Anim\DeathMario.anim
+          projectPath: Assets\Sprites\Anim\DeathMario.anim
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Sprites\Anim\DeathMario.anim.meta
+          fullPath: D:\MarioGame\marioGame\Assets\Sprites\Anim\DeathMario.anim.meta
+          projectPath: Assets\Sprites\Anim\DeathMario.anim.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Sprites\Anim\Idle.anim
+          fullPath: D:\MarioGame\marioGame\Assets\Sprites\Anim\Idle.anim
+          projectPath: Assets\Sprites\Anim\Idle.anim
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Sprites\Anim\Idle.anim.meta
+          fullPath: D:\MarioGame\marioGame\Assets\Sprites\Anim\Idle.anim.meta
+          projectPath: Assets\Sprites\Anim\Idle.anim.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Sprites\Anim\Jump.anim
+          fullPath: D:\MarioGame\marioGame\Assets\Sprites\Anim\Jump.anim
+          projectPath: Assets\Sprites\Anim\Jump.anim
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Sprites\Anim\Jump.anim.meta
+          fullPath: D:\MarioGame\marioGame\Assets\Sprites\Anim\Jump.anim.meta
+          projectPath: Assets\Sprites\Anim\Jump.anim.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Sprites\Anim\runMario.anim
+          fullPath: D:\MarioGame\marioGame\Assets\Sprites\Anim\runMario.anim
+          projectPath: Assets\Sprites\Anim\runMario.anim
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Sprites\Anim\runMario.anim.meta
+          fullPath: D:\MarioGame\marioGame\Assets\Sprites\Anim\runMario.anim.meta
+          projectPath: Assets\Sprites\Anim\runMario.anim.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Sprites\Level.controller
+          fullPath: D:\MarioGame\marioGame\Assets\Sprites\Level.controller
+          projectPath: Assets\Sprites\Level.controller
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Sprites\Level.controller.meta
+          fullPath: D:\MarioGame\marioGame\Assets\Sprites\Level.controller.meta
+          projectPath: Assets\Sprites\Level.controller.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Sprites\NES - Super Mario Bros - Background 1 Mountains.png
+          fullPath: D:\MarioGame\marioGame\Assets\Sprites\NES - Super Mario Bros
+            - Background 1 Mountains.png
+          projectPath: Assets\Sprites\NES - Super Mario Bros - Background 1 Mountains.png
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Sprites\NES - Super Mario Bros - Background 1 Mountains.png.meta
+          fullPath: D:\MarioGame\marioGame\Assets\Sprites\NES - Super Mario Bros
+            - Background 1 Mountains.png.meta
+          projectPath: Assets\Sprites\NES - Super Mario Bros - Background 1 Mountains.png.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Sprites\NES - Super Mario Bros - Background 2 Trees.png
+          fullPath: D:\MarioGame\marioGame\Assets\Sprites\NES - Super Mario Bros
+            - Background 2 Trees.png
+          projectPath: Assets\Sprites\NES - Super Mario Bros - Background 2 Trees.png
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Sprites\NES - Super Mario Bros - Background 2 Trees.png.meta
+          fullPath: D:\MarioGame\marioGame\Assets\Sprites\NES - Super Mario Bros
+            - Background 2 Trees.png.meta
+          projectPath: Assets\Sprites\NES - Super Mario Bros - Background 2 Trees.png.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Sprites\NES - Super Mario Bros - Background 3 Clouds.png
+          fullPath: D:\MarioGame\marioGame\Assets\Sprites\NES - Super Mario Bros
+            - Background 3 Clouds.png
+          projectPath: Assets\Sprites\NES - Super Mario Bros - Background 3 Clouds.png
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Sprites\NES - Super Mario Bros - Background 3 Clouds.png.meta
+          fullPath: D:\MarioGame\marioGame\Assets\Sprites\NES - Super Mario Bros
+            - Background 3 Clouds.png.meta
+          projectPath: Assets\Sprites\NES - Super Mario Bros - Background 3 Clouds.png.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Sprites\NES - Super Mario Bros - Item and Brick Blocks.png
+          fullPath: D:\MarioGame\marioGame\Assets\Sprites\NES - Super Mario Bros
+            - Item and Brick Blocks.png
+          projectPath: Assets\Sprites\NES - Super Mario Bros - Item and Brick Blocks.png
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Sprites\NES - Super Mario Bros - Item and Brick Blocks.png.meta
+          fullPath: D:\MarioGame\marioGame\Assets\Sprites\NES - Super Mario Bros
+            - Item and Brick Blocks.png.meta
+          projectPath: Assets\Sprites\NES - Super Mario Bros - Item and Brick Blocks.png.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Sprites\NES - Super Mario Bros - Items Objects and NPCs.png
+          fullPath: D:\MarioGame\marioGame\Assets\Sprites\NES - Super Mario Bros
+            - Items Objects and NPCs.png
+          projectPath: Assets\Sprites\NES - Super Mario Bros - Items Objects and
+            NPCs.png
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Sprites\NES - Super Mario Bros - Items Objects and NPCs.png.meta
+          fullPath: D:\MarioGame\marioGame\Assets\Sprites\NES - Super Mario Bros
+            - Items Objects and NPCs.png.meta
+          projectPath: Assets\Sprites\NES - Super Mario Bros - Items Objects and
+            NPCs.png.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Sprites\NES - Super Mario Bros - Tileset_2 1.controller
+          fullPath: D:\MarioGame\marioGame\Assets\Sprites\NES - Super Mario Bros
+            - Tileset_2 1.controller
+          projectPath: Assets\Sprites\NES - Super Mario Bros - Tileset_2 1.controller
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Sprites\NES - Super Mario Bros - Tileset_2 1.controller.meta
+          fullPath: D:\MarioGame\marioGame\Assets\Sprites\NES - Super Mario Bros
+            - Tileset_2 1.controller.meta
+          projectPath: Assets\Sprites\NES - Super Mario Bros - Tileset_2 1.controller.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Sprites\NES - Super Mario Bros - Tileset_2.asset
+          fullPath: D:\MarioGame\marioGame\Assets\Sprites\NES - Super Mario Bros
+            - Tileset_2.asset
+          projectPath: Assets\Sprites\NES - Super Mario Bros - Tileset_2.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Sprites\NES - Super Mario Bros - Tileset_2.asset.meta
+          fullPath: D:\MarioGame\marioGame\Assets\Sprites\NES - Super Mario Bros
+            - Tileset_2.asset.meta
+          projectPath: Assets\Sprites\NES - Super Mario Bros - Tileset_2.asset.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Sprites\NES - Super Mario Bros - Tileset_2.controller
+          fullPath: D:\MarioGame\marioGame\Assets\Sprites\NES - Super Mario Bros
+            - Tileset_2.controller
+          projectPath: Assets\Sprites\NES - Super Mario Bros - Tileset_2.controller
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Sprites\NES - Super Mario Bros - Tileset_2.controller.meta
+          fullPath: D:\MarioGame\marioGame\Assets\Sprites\NES - Super Mario Bros
+            - Tileset_2.controller.meta
+          projectPath: Assets\Sprites\NES - Super Mario Bros - Tileset_2.controller.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Sprites\NES - Super Mario Bros - Title Screen HUD and Miscellaneous.png
+          fullPath: D:\MarioGame\marioGame\Assets\Sprites\NES - Super Mario Bros
+            - Title Screen HUD and Miscellaneous.png
+          projectPath: Assets\Sprites\NES - Super Mario Bros - Title Screen HUD and
+            Miscellaneous.png
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Sprites\NES - Super Mario Bros - Title Screen HUD and Miscellaneous.png.meta
+          fullPath: D:\MarioGame\marioGame\Assets\Sprites\NES - Super Mario Bros
+            - Title Screen HUD and Miscellaneous.png.meta
+          projectPath: Assets\Sprites\NES - Super Mario Bros - Title Screen HUD and
+            Miscellaneous.png.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Sprites\NES - Super Mario Bros - World 1-1 1.png
+          fullPath: D:\MarioGame\marioGame\Assets\Sprites\NES - Super Mario Bros
+            - World 1-1 1.png
+          projectPath: Assets\Sprites\NES - Super Mario Bros - World 1-1 1.png
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Sprites\NES - Super Mario Bros - World 1-1 1.png.meta
+          fullPath: D:\MarioGame\marioGame\Assets\Sprites\NES - Super Mario Bros
+            - World 1-1 1.png.meta
+          projectPath: Assets\Sprites\NES - Super Mario Bros - World 1-1 1.png.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Sprites\NES - Super Mario Bros - World 1-1.png
+          fullPath: D:\MarioGame\marioGame\Assets\Sprites\NES - Super Mario Bros
+            - World 1-1.png
+          projectPath: Assets\Sprites\NES - Super Mario Bros - World 1-1.png
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Sprites\NES - Super Mario Bros - World 1-1.png.meta
+          fullPath: D:\MarioGame\marioGame\Assets\Sprites\NES - Super Mario Bros
+            - World 1-1.png.meta
+          projectPath: Assets\Sprites\NES - Super Mario Bros - World 1-1.png.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Sprites\Pallete.meta
+          fullPath: D:\MarioGame\marioGame\Assets\Sprites\Pallete.meta
+          projectPath: Assets\Sprites\Pallete.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Sprites\Pallete\NES - Super Mario Bros - Tileset_0.asset
+          fullPath: D:\MarioGame\marioGame\Assets\Sprites\Pallete\NES - Super Mario
+            Bros - Tileset_0.asset
+          projectPath: Assets\Sprites\Pallete\NES - Super Mario Bros - Tileset_0.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Sprites\Pallete\NES - Super Mario Bros - Tileset_0.asset.meta
+          fullPath: D:\MarioGame\marioGame\Assets\Sprites\Pallete\NES - Super Mario
+            Bros - Tileset_0.asset.meta
+          projectPath: Assets\Sprites\Pallete\NES - Super Mario Bros - Tileset_0.asset.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Sprites\Pallete\NES - Super Mario Bros - Tileset_1.asset
+          fullPath: D:\MarioGame\marioGame\Assets\Sprites\Pallete\NES - Super Mario
+            Bros - Tileset_1.asset
+          projectPath: Assets\Sprites\Pallete\NES - Super Mario Bros - Tileset_1.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Sprites\Pallete\NES - Super Mario Bros - Tileset_1.asset.meta
+          fullPath: D:\MarioGame\marioGame\Assets\Sprites\Pallete\NES - Super Mario
+            Bros - Tileset_1.asset.meta
+          projectPath: Assets\Sprites\Pallete\NES - Super Mario Bros - Tileset_1.asset.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Sprites\Pallete\NES - Super Mario Bros - Tileset_2.asset
+          fullPath: D:\MarioGame\marioGame\Assets\Sprites\Pallete\NES - Super Mario
+            Bros - Tileset_2.asset
+          projectPath: Assets\Sprites\Pallete\NES - Super Mario Bros - Tileset_2.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Sprites\Pallete\NES - Super Mario Bros - Tileset_2.asset.meta
+          fullPath: D:\MarioGame\marioGame\Assets\Sprites\Pallete\NES - Super Mario
+            Bros - Tileset_2.asset.meta
+          projectPath: Assets\Sprites\Pallete\NES - Super Mario Bros - Tileset_2.asset.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Sprites\Pallete\NES - Super Mario Bros - Tileset_3.asset
+          fullPath: D:\MarioGame\marioGame\Assets\Sprites\Pallete\NES - Super Mario
+            Bros - Tileset_3.asset
+          projectPath: Assets\Sprites\Pallete\NES - Super Mario Bros - Tileset_3.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Sprites\Pallete\NES - Super Mario Bros - Tileset_3.asset.meta
+          fullPath: D:\MarioGame\marioGame\Assets\Sprites\Pallete\NES - Super Mario
+            Bros - Tileset_3.asset.meta
+          projectPath: Assets\Sprites\Pallete\NES - Super Mario Bros - Tileset_3.asset.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Sprites\Pallete\NES - Super Mario Bros - Tileset_4.asset
+          fullPath: D:\MarioGame\marioGame\Assets\Sprites\Pallete\NES - Super Mario
+            Bros - Tileset_4.asset
+          projectPath: Assets\Sprites\Pallete\NES - Super Mario Bros - Tileset_4.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Sprites\Pallete\NES - Super Mario Bros - Tileset_4.asset.meta
+          fullPath: D:\MarioGame\marioGame\Assets\Sprites\Pallete\NES - Super Mario
+            Bros - Tileset_4.asset.meta
+          projectPath: Assets\Sprites\Pallete\NES - Super Mario Bros - Tileset_4.asset.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Sprites\Pallete\NES - Super Mario Bros - Tileset_5.asset
+          fullPath: D:\MarioGame\marioGame\Assets\Sprites\Pallete\NES - Super Mario
+            Bros - Tileset_5.asset
+          projectPath: Assets\Sprites\Pallete\NES - Super Mario Bros - Tileset_5.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Sprites\Pallete\NES - Super Mario Bros - Tileset_5.asset.meta
+          fullPath: D:\MarioGame\marioGame\Assets\Sprites\Pallete\NES - Super Mario
+            Bros - Tileset_5.asset.meta
+          projectPath: Assets\Sprites\Pallete\NES - Super Mario Bros - Tileset_5.asset.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Sprites\Pallete\NES - Super Mario Bros - Tileset_6.asset
+          fullPath: D:\MarioGame\marioGame\Assets\Sprites\Pallete\NES - Super Mario
+            Bros - Tileset_6.asset
+          projectPath: Assets\Sprites\Pallete\NES - Super Mario Bros - Tileset_6.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Sprites\Pallete\NES - Super Mario Bros - Tileset_6.asset.meta
+          fullPath: D:\MarioGame\marioGame\Assets\Sprites\Pallete\NES - Super Mario
+            Bros - Tileset_6.asset.meta
+          projectPath: Assets\Sprites\Pallete\NES - Super Mario Bros - Tileset_6.asset.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Sprites\Pallete\NES - Super Mario Bros - Tileset_7.asset
+          fullPath: D:\MarioGame\marioGame\Assets\Sprites\Pallete\NES - Super Mario
+            Bros - Tileset_7.asset
+          projectPath: Assets\Sprites\Pallete\NES - Super Mario Bros - Tileset_7.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Sprites\Pallete\NES - Super Mario Bros - Tileset_7.asset.meta
+          fullPath: D:\MarioGame\marioGame\Assets\Sprites\Pallete\NES - Super Mario
+            Bros - Tileset_7.asset.meta
+          projectPath: Assets\Sprites\Pallete\NES - Super Mario Bros - Tileset_7.asset.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Sprites\Pallete\NES - Super Mario Bros - Tileset_8.asset
+          fullPath: D:\MarioGame\marioGame\Assets\Sprites\Pallete\NES - Super Mario
+            Bros - Tileset_8.asset
+          projectPath: Assets\Sprites\Pallete\NES - Super Mario Bros - Tileset_8.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Sprites\Pallete\NES - Super Mario Bros - Tileset_8.asset.meta
+          fullPath: D:\MarioGame\marioGame\Assets\Sprites\Pallete\NES - Super Mario
+            Bros - Tileset_8.asset.meta
+          projectPath: Assets\Sprites\Pallete\NES - Super Mario Bros - Tileset_8.asset.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Sprites\Pallete\NES - Super Mario Bros - Tileset_9.asset
+          fullPath: D:\MarioGame\marioGame\Assets\Sprites\Pallete\NES - Super Mario
+            Bros - Tileset_9.asset
+          projectPath: Assets\Sprites\Pallete\NES - Super Mario Bros - Tileset_9.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Sprites\Pallete\NES - Super Mario Bros - Tileset_9.asset.meta
+          fullPath: D:\MarioGame\marioGame\Assets\Sprites\Pallete\NES - Super Mario
+            Bros - Tileset_9.asset.meta
+          projectPath: Assets\Sprites\Pallete\NES - Super Mario Bros - Tileset_9.asset.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Sprites\ParticleBlockDestroy.mat
+          fullPath: D:\MarioGame\marioGame\Assets\Sprites\ParticleBlockDestroy.mat
+          projectPath: Assets\Sprites\ParticleBlockDestroy.mat
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Sprites\ParticleBlockDestroy.mat.meta
+          fullPath: D:\MarioGame\marioGame\Assets\Sprites\ParticleBlockDestroy.mat.meta
+          projectPath: Assets\Sprites\ParticleBlockDestroy.mat.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Sprites\Tiles.meta
+          fullPath: D:\MarioGame\marioGame\Assets\Sprites\Tiles.meta
+          projectPath: Assets\Sprites\Tiles.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Sprites\Tiles\gras.prefab
+          fullPath: D:\MarioGame\marioGame\Assets\Sprites\Tiles\gras.prefab
+          projectPath: Assets\Sprites\Tiles\gras.prefab
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Sprites\Tiles\gras.prefab.meta
+          fullPath: D:\MarioGame\marioGame\Assets\Sprites\Tiles\gras.prefab.meta
+          projectPath: Assets\Sprites\Tiles\gras.prefab.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Sprites\Tlles.png
+          fullPath: D:\MarioGame\marioGame\Assets\Sprites\Tlles.png
+          projectPath: Assets\Sprites\Tlles.png
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Sprites\Tlles.png.meta
+          fullPath: D:\MarioGame\marioGame\Assets\Sprites\Tlles.png.meta
+          projectPath: Assets\Sprites\Tlles.png.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Sprites\Untitled.png
+          fullPath: D:\MarioGame\marioGame\Assets\Sprites\Untitled.png
+          projectPath: Assets\Sprites\Untitled.png
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Sprites\Untitled.png.meta
+          fullPath: D:\MarioGame\marioGame\Assets\Sprites\Untitled.png.meta
+          projectPath: Assets\Sprites\Untitled.png.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Sprites\mario 1.png
+          fullPath: D:\MarioGame\marioGame\Assets\Sprites\mario 1.png
+          projectPath: Assets\Sprites\mario 1.png
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Sprites\mario 1.png.meta
+          fullPath: D:\MarioGame\marioGame\Assets\Sprites\mario 1.png.meta
+          projectPath: Assets\Sprites\mario 1.png.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Sprites\mario.png
+          fullPath: D:\MarioGame\marioGame\Assets\Sprites\mario.png
+          projectPath: Assets\Sprites\mario.png
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Sprites\mario.png.meta
+          fullPath: D:\MarioGame\marioGame\Assets\Sprites\mario.png.meta
+          projectPath: Assets\Sprites\mario.png.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Sprites\mario_0.controller
+          fullPath: D:\MarioGame\marioGame\Assets\Sprites\mario_0.controller
+          projectPath: Assets\Sprites\mario_0.controller
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Sprites\mario_0.controller.meta
+          fullPath: D:\MarioGame\marioGame\Assets\Sprites\mario_0.controller.meta
+          projectPath: Assets\Sprites\mario_0.controller.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Sprites\png-transparent-brick-wall-cement-beautiful-orange-bricks-building-rectangle-orange.png
+          fullPath: D:\MarioGame\marioGame\Assets\Sprites\png-transparent-brick-wall-cement-beautiful-orange-bricks-building-rectangle-orange.png
+          projectPath: Assets\Sprites\png-transparent-brick-wall-cement-beautiful-orange-bricks-building-rectangle-orange.png
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Sprites\png-transparent-brick-wall-cement-beautiful-orange-bricks-building-rectangle-orange.png.meta
+          fullPath: D:\MarioGame\marioGame\Assets\Sprites\png-transparent-brick-wall-cement-beautiful-orange-bricks-building-rectangle-orange.png.meta
+          projectPath: Assets\Sprites\png-transparent-brick-wall-cement-beautiful-orange-bricks-building-rectangle-orange.png.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\block.png
+          fullPath: D:\MarioGame\marioGame\Assets\block.png
+          projectPath: Assets\block.png
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\block.png.meta
+          fullPath: D:\MarioGame\marioGame\Assets\block.png.meta
+          projectPath: Assets\block.png.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\mario.physicsMaterial2D
+          fullPath: D:\MarioGame\marioGame\Assets\mario.physicsMaterial2D
+          projectPath: Assets\mario.physicsMaterial2D
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\mario.physicsMaterial2D.meta
+          fullPath: D:\MarioGame\marioGame\Assets\mario.physicsMaterial2D.meta
+          projectPath: Assets\mario.physicsMaterial2D.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Logs\Packages-Update.log
+          fullPath: D:\MarioGame\marioGame\Logs\Packages-Update.log
+          projectPath: Logs\Packages-Update.log
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Logs\shadercompiler-UnityShaderCompiler.exe0.log
+          fullPath: D:\MarioGame\marioGame\Logs\shadercompiler-UnityShaderCompiler.exe0.log
+          projectPath: Logs\shadercompiler-UnityShaderCompiler.exe0.log
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Packages\manifest.json
+          fullPath: D:\MarioGame\marioGame\Packages\manifest.json
+          projectPath: Packages\manifest.json
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Packages\packages-lock.json
+          fullPath: D:\MarioGame\marioGame\Packages\packages-lock.json
+          projectPath: Packages\packages-lock.json
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\AudioManager.asset
+          fullPath: D:\MarioGame\marioGame\ProjectSettings\AudioManager.asset
+          projectPath: ProjectSettings\AudioManager.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\BurstAotSettings_StandaloneWindows.json
+          fullPath: D:\MarioGame\marioGame\ProjectSettings\BurstAotSettings_StandaloneWindows.json
+          projectPath: ProjectSettings\BurstAotSettings_StandaloneWindows.json
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\ClusterInputManager.asset
+          fullPath: D:\MarioGame\marioGame\ProjectSettings\ClusterInputManager.asset
+          projectPath: ProjectSettings\ClusterInputManager.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\CommonBurstAotSettings.json
+          fullPath: D:\MarioGame\marioGame\ProjectSettings\CommonBurstAotSettings.json
+          projectPath: ProjectSettings\CommonBurstAotSettings.json
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\DynamicsManager.asset
+          fullPath: D:\MarioGame\marioGame\ProjectSettings\DynamicsManager.asset
+          projectPath: ProjectSettings\DynamicsManager.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\EditorBuildSettings.asset
+          fullPath: D:\MarioGame\marioGame\ProjectSettings\EditorBuildSettings.asset
+          projectPath: ProjectSettings\EditorBuildSettings.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\EditorSettings.asset
+          fullPath: D:\MarioGame\marioGame\ProjectSettings\EditorSettings.asset
+          projectPath: ProjectSettings\EditorSettings.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\GraphicsSettings.asset
+          fullPath: D:\MarioGame\marioGame\ProjectSettings\GraphicsSettings.asset
+          projectPath: ProjectSettings\GraphicsSettings.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\InputManager.asset
+          fullPath: D:\MarioGame\marioGame\ProjectSettings\InputManager.asset
+          projectPath: ProjectSettings\InputManager.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\MemorySettings.asset
+          fullPath: D:\MarioGame\marioGame\ProjectSettings\MemorySettings.asset
+          projectPath: ProjectSettings\MemorySettings.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\NavMeshAreas.asset
+          fullPath: D:\MarioGame\marioGame\ProjectSettings\NavMeshAreas.asset
+          projectPath: ProjectSettings\NavMeshAreas.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\NetworkManager.asset
+          fullPath: D:\MarioGame\marioGame\ProjectSettings\NetworkManager.asset
+          projectPath: ProjectSettings\NetworkManager.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\PackageManagerSettings.asset
+          fullPath: D:\MarioGame\marioGame\ProjectSettings\PackageManagerSettings.asset
+          projectPath: ProjectSettings\PackageManagerSettings.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\Physics2DSettings.asset
+          fullPath: D:\MarioGame\marioGame\ProjectSettings\Physics2DSettings.asset
+          projectPath: ProjectSettings\Physics2DSettings.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\PresetManager.asset
+          fullPath: D:\MarioGame\marioGame\ProjectSettings\PresetManager.asset
+          projectPath: ProjectSettings\PresetManager.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\ProjectSettings.asset
+          fullPath: D:\MarioGame\marioGame\ProjectSettings\ProjectSettings.asset
+          projectPath: ProjectSettings\ProjectSettings.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\ProjectVersion.txt
+          fullPath: D:\MarioGame\marioGame\ProjectSettings\ProjectVersion.txt
+          projectPath: ProjectSettings\ProjectVersion.txt
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\QualitySettings.asset
+          fullPath: D:\MarioGame\marioGame\ProjectSettings\QualitySettings.asset
+          projectPath: ProjectSettings\QualitySettings.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\SceneTemplateSettings.json
+          fullPath: D:\MarioGame\marioGame\ProjectSettings\SceneTemplateSettings.json
+          projectPath: ProjectSettings\SceneTemplateSettings.json
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\TagManager.asset
+          fullPath: D:\MarioGame\marioGame\ProjectSettings\TagManager.asset
+          projectPath: ProjectSettings\TagManager.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\TimeManager.asset
+          fullPath: D:\MarioGame\marioGame\ProjectSettings\TimeManager.asset
+          projectPath: ProjectSettings\TimeManager.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\UnityConnectSettings.asset
+          fullPath: D:\MarioGame\marioGame\ProjectSettings\UnityConnectSettings.asset
+          projectPath: ProjectSettings\UnityConnectSettings.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\VFXManager.asset
+          fullPath: D:\MarioGame\marioGame\ProjectSettings\VFXManager.asset
+          projectPath: ProjectSettings\VFXManager.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\VersionControlSettings.asset
+          fullPath: D:\MarioGame\marioGame\ProjectSettings\VersionControlSettings.asset
+          projectPath: ProjectSettings\VersionControlSettings.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\XRSettings.asset
+          fullPath: D:\MarioGame\marioGame\ProjectSettings\XRSettings.asset
+          projectPath: ProjectSettings\XRSettings.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: UserSettings\EditorUserSettings.asset
+          fullPath: D:\MarioGame\marioGame\UserSettings\EditorUserSettings.asset
+          projectPath: UserSettings\EditorUserSettings.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: UserSettings\Layouts\default-2022.dwlt
+          fullPath: D:\MarioGame\marioGame\UserSettings\Layouts\default-2022.dwlt
+          projectPath: UserSettings\Layouts\default-2022.dwlt
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: UserSettings\Search.index
+          fullPath: D:\MarioGame\marioGame\UserSettings\Search.index
+          projectPath: UserSettings\Search.index
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: UserSettings\Search.settings
+          fullPath: D:\MarioGame\marioGame\UserSettings\Search.settings
+          projectPath: UserSettings\Search.settings
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - commitID: d5d325ec965d082cccaba354f1c9b416b70a1dc1
+        mergeA: 
+        mergeB: 
+        authorName: zaec1997
+        authorEmail: 39388752+zaec1997@users.noreply.github.com
+        commitEmail: 39388752+zaec1997@users.noreply.github.com
+        commitName: zaec1997
+        summary: Initial commit
+        description: 
+        timeString: 2023-11-19T13:09:01.000+02:00
+        commitTimeString: 2023-11-19T13:09:01.000+02:00
+        changes:
+        - path: .gitattributes
+          fullPath: D:\MarioGame\marioGame\.gitattributes
+          projectPath: .gitattributes
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      statusAhead: 0
+      selectedIndex: 1
+    selectedEntry:
+      commitID: d5d325ec965d082cccaba354f1c9b416b70a1dc1
+      mergeA: 
+      mergeB: 
+      authorName: zaec1997
+      authorEmail: 39388752+zaec1997@users.noreply.github.com
+      commitEmail: 39388752+zaec1997@users.noreply.github.com
+      commitName: zaec1997
+      summary: Initial commit
+      description: 
+      timeString: 2023-11-19T13:09:01.000+02:00
+      commitTimeString: 2023-11-19T13:09:01.000+02:00
+      changes:
+      - path: .gitattributes
+        fullPath: D:\MarioGame\marioGame\.gitattributes
+        projectPath: .gitattributes
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+    treeChanges:
+      assets:
+        keys: []
+        values: []
+      folders:
+        keys: []
+        values: []
+      checkedFileNodes:
+        keys: []
+        values: []
+      title: 
+      pathSeparator: \
+      displayRootNode: 0
+      isSelectable: 1
+      isCheckable: 0
+      isUsingGlobalSelection: 0
+      nodes:
+      - path: 
+        label: 
+        level: -1
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: .gitattributes
+        label: .gitattributes
+        level: 0
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: .gitattributes
+          fullPath: D:\MarioGame\marioGame\.gitattributes
+          projectPath: .gitattributes
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      selectedNode:
+        path: 
+        label: 
+        level: 0
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+    detailsScroll: {x: 0, y: 0}
+  settingsView:
+    gitPathView:
+      gitPath: C:\Users\ALEX\AppData\Local\GitForUnity\git\cmd\git.exe
+      gitLfsPath: C:\Users\ALEX\AppData\Local\GitForUnity\git\mingw64\libexec\git-core\git-lfs.exe
+      errorMessage: 
+      resetToBundled: 0
+      resetToSystem: 0
+      changingManually: 0
+    hasRemote: 1
+    lastCurrentRemoteChangedEvent:
+      updatedTimeString: 2023-11-19T14:46:26.320+02:00
+      cacheType: 1
+    newRepositoryRemoteUrl: https://github.com/zaec1997/marioGame.git
+    repositoryRemoteName: origin
+    repositoryRemoteUrl: https://github.com/zaec1997/marioGame.git
+    scroll: {x: 0, y: 0}
+    userSettingsView:
+      gitName: zaec1997
+      gitEmail: 39388752+zaec1997@users.noreply.github.com
+      newGitName: zaec1997
+      newGitEmail: 39388752+zaec1997@users.noreply.github.com
+      needsSaving: 0
+      lastCheckUserChangedEvent:
+        updatedTimeString: 0001-01-01T00:00:00.000+00:00
+        cacheType: 8
+    webTimeout: 100000
+    gitTimeout: 5000
+  locksView:
+    currentRemoteHasUpdate: 1
+    currentStatusEntriesHasUpdate: 0
+    currentLocksHasUpdate: 0
+    keychainHasUpdate: 1
+    locksControl:
+      scroll: {x: 0, y: 0}
+      gitLockEntries: []
+      assets:
+        keys: []
+        values: []
+      gitStatusDictionary:
+        keys: []
+        values: []
+      selectedEntry:
+        gitLock:
+          id: 
+          path: 
+          owner:
+            name: 
+            email: 
+          lockedAtString: 
+        gitFileStatus: 0
+        lockedAt: "1 \u0441\u0456\u0447 0001, 02:00"
+    lastCurrentRemoteChangedEvent:
+      updatedTimeString: 2023-11-19T14:46:26.320+02:00
+      cacheType: 1
+    lastLocksChangedEvent:
+      updatedTimeString: 0001-01-01T00:00:00.000+00:00
+      cacheType: 7
+    lastStatusEntriesChangedEvent:
+      updatedTimeString: 0001-01-01T00:00:00.000+00:00
+      cacheType: 6
+    lockedFiles: []
+    gitStatusEntries:
+    - path: Logs\AssetImportWorker0.log
+      fullPath: D:\MarioGame\marioGame\Logs\AssetImportWorker0.log
+      projectPath: Logs\AssetImportWorker0.log
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Logs\AssetImportWorker1.log
+      fullPath: D:\MarioGame\marioGame\Logs\AssetImportWorker1.log
+      projectPath: Logs\AssetImportWorker1.log
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    currentUsername: 
+    unlockFileMenuContent:
+      m_Text: Release Lock
+      m_Image: {fileID: 0}
+      m_Tooltip: 
+    forceUnlockFileMenuContent:
+      m_Text: Release Lock (forced)
+      m_Image: {fileID: 0}
+      m_Tooltip: 
+  hasRemote: 1
+  currentRemoteName: origin
+  currentBranch: main
+  currentRemoteUrl: https://github.com/zaec1997/marioGame.git
+  statusAhead: 0
+  statusBehind: 0
+  hasItemsToCommit: 1
+  isTrackingRemoteBranch: 1
+  currentBranchContent:
+    m_Text: main
+    m_Image: {fileID: 0}
+    m_Tooltip: Active branch
+  currentRemoteUrlContent:
+    m_Text: https://github.com/zaec1997/marioGame.git
+    m_Image: {fileID: 0}
+    m_Tooltip: Url of the origin remote
+  lastCurrentBranchAndRemoteChangedEvent:
+    updatedTimeString: 2023-11-19T14:46:26.320+02:00
+    cacheType: 1
+  lastTrackingStatusChangedEvent:
+    updatedTimeString: 0001-01-01T00:00:00.000+00:00
+    cacheType: 5
+  lastStatusEntriesChangedEvent:
+    updatedTimeString: 0001-01-01T00:00:00.000+00:00
+    cacheType: 6
+  pullButtonContent:
+    m_Text: Pull
+    m_Image: {fileID: 0}
+    m_Tooltip: 
+  pushButtonContent:
+    m_Text: Push
+    m_Image: {fileID: 0}
+    m_Tooltip: 
+  refreshButtonContent:
+    m_Text: Refresh
+    m_Image: {fileID: 0}
+    m_Tooltip: 
+  fetchButtonContent:
+    m_Text: Fetch
+    m_Image: {fileID: 0}
+    m_Tooltip: 
+  repositoryProgressValue: 0
+  repositoryProgressMessage: 
+  appManagerProgressValue: 0
+  appManagerProgressMessage: 
+  primaryConnectionUsername: 
+--- !u!114 &3
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children:
+  - {fileID: 4}
+  - {fileID: 11}
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1151
+    height: 901
+  m_MinSize: {x: 200, y: 100}
+  m_MaxSize: {x: 16192, y: 16192}
+  vertical: 1
+  controlID: 51
+--- !u!114 &4
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children:
+  - {fileID: 5}
+  - {fileID: 7}
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1151
+    height: 596
+  m_MinSize: {x: 200, y: 50}
+  m_MaxSize: {x: 16192, y: 8096}
+  vertical: 0
+  controlID: 52
+--- !u!114 &5
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 283
+    height: 596
+  m_MinSize: {x: 201, y: 221}
+  m_MaxSize: {x: 4001, y: 4021}
+  m_ActualView: {fileID: 6}
+  m_Panes:
+  - {fileID: 6}
+  m_Selected: 0
+  m_LastSelected: 0
+--- !u!114 &6
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12061, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Hierarchy
+    m_Image: {fileID: 7966133145522015247, guid: 0000000000000000d000000000000000, type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 9
+    y: 81
+    width: 282
+    height: 575
+  m_SerializedDataModeController:
+    m_DataMode: 0
+    m_PreferredDataMode: 0
+    m_SupportedDataModes: 
+    isAutomatic: 1
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+    m_OverlaysVisible: 1
+  m_SceneHierarchy:
+    m_TreeViewState:
+      scrollPos: {x: 0, y: 0}
+      m_SelectedIDs: 52610000
+      m_LastClickedID: 0
+      m_ExpandedIDs: 1afbffff
+      m_RenameOverlay:
+        m_UserAcceptedRename: 0
+        m_Name: 
+        m_OriginalName: 
+        m_EditFieldRect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        m_UserData: 0
+        m_IsWaitingForDelay: 0
+        m_IsRenaming: 0
+        m_OriginalEventType: 11
+        m_IsRenamingFilename: 0
+        m_ClientGUIView: {fileID: 5}
+      m_SearchString: 
+    m_ExpandedScenes: []
+    m_CurrenRootInstanceID: 0
+    m_LockTracker:
+      m_IsLocked: 0
+    m_CurrentSortingName: TransformSorting
+  m_WindowGUID: 4c969a2b90040154d917609493e03593
+--- !u!114 &7
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: GameView
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 283
+    y: 0
+    width: 868
+    height: 596
+  m_MinSize: {x: 202, y: 221}
+  m_MaxSize: {x: 4002, y: 4021}
+  m_ActualView: {fileID: 9}
+  m_Panes:
+  - {fileID: 8}
+  - {fileID: 9}
+  - {fileID: 10}
+  m_Selected: 1
+  m_LastSelected: 0
+--- !u!114 &8
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12013, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Scene
+    m_Image: {fileID: 2593428753322112591, guid: 0000000000000000d000000000000000, type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 292
+    y: 81
+    width: 866
+    height: 575
+  m_SerializedDataModeController:
+    m_DataMode: 0
+    m_PreferredDataMode: 0
+    m_SupportedDataModes: 
+    isAutomatic: 1
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData:
+    - dockPosition: 0
+      containerId: overlay-toolbar__top
+      floating: 0
+      collapsed: 0
+      displayed: 1
+      snapOffset: {x: -171, y: -26}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 3
+      id: Tool Settings
+      index: 0
+      layout: 1
+      size: {x: 0, y: 0}
+      sizeOverriden: 0
+    - dockPosition: 0
+      containerId: overlay-toolbar__top
+      floating: 0
+      collapsed: 0
+      displayed: 1
+      snapOffset: {x: -141, y: 149}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 1
+      id: unity-grid-and-snap-toolbar
+      index: 1
+      layout: 1
+      size: {x: 0, y: 0}
+      sizeOverriden: 0
+    - dockPosition: 1
+      containerId: overlay-toolbar__top
+      floating: 0
+      collapsed: 0
+      displayed: 1
+      snapOffset: {x: 0, y: 25}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: unity-scene-view-toolbar
+      index: 0
+      layout: 1
+      size: {x: 0, y: 0}
+      sizeOverriden: 0
+    - dockPosition: 1
+      containerId: overlay-toolbar__top
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 1
+      id: unity-search-toolbar
+      index: 1
+      layout: 1
+      size: {x: 0, y: 0}
+      sizeOverriden: 0
+    - dockPosition: 0
+      containerId: overlay-container--left
+      floating: 0
+      collapsed: 0
+      displayed: 1
+      snapOffset: {x: 0, y: 26}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: unity-transform-toolbar
+      index: 0
+      layout: 2
+      size: {x: 0, y: 0}
+      sizeOverriden: 0
+    - dockPosition: 0
+      containerId: overlay-container--left
+      floating: 0
+      collapsed: 0
+      displayed: 1
+      snapOffset: {x: 0, y: 197}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: unity-component-tools
+      index: 1
+      layout: 2
+      size: {x: 0, y: 0}
+      sizeOverriden: 0
+    - dockPosition: 0
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 1
+      snapOffset: {x: 67.5, y: 86}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Orientation
+      index: 0
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverriden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/Light Settings
+      index: 1
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverriden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/Camera
+      index: 1
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverriden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/Cloth Constraints
+      index: 3
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverriden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/Cloth Collisions
+      index: 4
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverriden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/Navmesh Display
+      index: 4
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverriden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/Agent Display
+      index: 5
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverriden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/Obstacle Display
+      index: 6
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverriden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/Occlusion Culling
+      index: 5
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverriden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/Physics Debugger
+      index: 6
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverriden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/Scene Visibility
+      index: 7
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverriden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: -231, y: -197}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 3
+      id: Scene View/Particles
+      index: 8
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverriden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/Tilemap
+      index: 11
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverriden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/Tilemap Palette Helper
+      index: 12
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverriden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 48, y: 48}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/Open Tile Palette
+      index: 0
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverriden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 48, y: 48}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/Tilemap Focus
+      index: 2
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverriden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 48, y: 48}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/Path
+      index: 10
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverriden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 48, y: 48}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/TrailRenderer
+      index: 9
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverriden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 1
+      snapOffset: {x: 48, y: 10}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: UnityEditor.SceneViewCameraOverlay
+      index: 11
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverriden: 0
+    m_OverlaysVisible: 1
+  m_WindowGUID: cc27987af1a868c49b0894db9c0f5429
+  m_Gizmos: 1
+  m_OverrideSceneCullingMask: 6917529027641081856
+  m_SceneIsLit: 1
+  m_SceneLighting: 1
+  m_2DMode: 1
+  m_isRotationLocked: 0
+  m_PlayAudio: 0
+  m_AudioPlay: 0
+  m_Position:
+    m_Target: {x: -6.713026, y: 1.5636816, z: 0.1726492}
+    speed: 2
+    m_Value: {x: -6.713026, y: 1.5636816, z: 0.1726492}
+  m_RenderMode: 0
+  m_CameraMode:
+    drawMode: 0
+    name: Shaded
+    section: Shading Mode
+  m_ValidateTrueMetals: 0
+  m_DoValidateTrueMetals: 0
+  m_SceneViewState:
+    m_AlwaysRefresh: 0
+    showFog: 1
+    showSkybox: 1
+    showFlares: 1
+    showImageEffects: 1
+    showParticleSystems: 1
+    showVisualEffectGraphs: 1
+    m_FxEnabled: 1
+  m_Grid:
+    xGrid:
+      m_Fade:
+        m_Target: 0
+        speed: 2
+        m_Value: 0
+      m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.4}
+      m_Pivot: {x: 0, y: 0, z: 0}
+      m_Size: {x: 0, y: 0}
+    yGrid:
+      m_Fade:
+        m_Target: 0
+        speed: 2
+        m_Value: 0
+      m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.4}
+      m_Pivot: {x: 0, y: 0, z: 0}
+      m_Size: {x: 1, y: 1}
+    zGrid:
+      m_Fade:
+        m_Target: 0
+        speed: 2
+        m_Value: 0
+      m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.4}
+      m_Pivot: {x: 0, y: 0, z: 0}
+      m_Size: {x: 1, y: 1}
+    m_ShowGrid: 0
+    m_GridAxis: 1
+    m_gridOpacity: 0.5
+  m_Rotation:
+    m_Target: {x: 0, y: 0, z: 0, w: 1}
+    speed: 2
+    m_Value: {x: 0, y: 0, z: 0, w: 1}
+  m_Size:
+    m_Target: 2.5355043
+    speed: 2
+    m_Value: 2.5355043
+  m_Ortho:
+    m_Target: 1
+    speed: 2
+    m_Value: 1
+  m_CameraSettings:
+    m_Speed: 1
+    m_SpeedNormalized: 0.5
+    m_SpeedMin: 0.001
+    m_SpeedMax: 2
+    m_EasingEnabled: 1
+    m_EasingDuration: 0.4
+    m_AccelerationEnabled: 1
+    m_FieldOfViewHorizontalOrVertical: 60
+    m_NearClip: 0.03
+    m_FarClip: 10000
+    m_DynamicClip: 1
+    m_OcclusionCulling: 0
+  m_LastSceneViewRotation: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
+  m_LastSceneViewOrtho: 0
+  m_ReplacementShader: {fileID: 0}
+  m_ReplacementString: 
+  m_SceneVisActive: 1
+  m_LastLockedObject: {fileID: 0}
+  m_ViewIsLockedToObject: 0
+--- !u!114 &9
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12015, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Game
+    m_Image: {fileID: -6423792434712278376, guid: 0000000000000000d000000000000000, type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 292
+    y: 81
+    width: 866
+    height: 575
+  m_SerializedDataModeController:
+    m_DataMode: 0
+    m_PreferredDataMode: 0
+    m_SupportedDataModes: 
+    isAutomatic: 1
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+    m_OverlaysVisible: 1
+  m_SerializedViewNames:
+  - UnityEditor.DeviceSimulation.SimulatorWindow
+  m_SerializedViewValues:
+  - C:\Users\ALEX\My project (2)\Library\PlayModeViewStates\c42dd1cf41d7688419ad6240e1cf54a2
+  m_PlayModeViewName: GameView
+  m_ShowGizmos: 0
+  m_TargetDisplay: 0
+  m_ClearColor: {r: 0, g: 0, b: 0, a: 0}
+  m_TargetSize: {x: 866, y: 554}
+  m_TextureFilterMode: 0
+  m_TextureHideFlags: 61
+  m_RenderIMGUI: 1
+  m_EnterPlayModeBehavior: 0
+  m_UseMipMap: 0
+  m_VSyncEnabled: 0
+  m_Gizmos: 0
+  m_Stats: 0
+  m_SelectedSizes: 00000000000000000000000000000000000000000000000000000000000000000000000000000000
+  m_ZoomArea:
+    m_HRangeLocked: 0
+    m_VRangeLocked: 0
+    hZoomLockedByDefault: 0
+    vZoomLockedByDefault: 0
+    m_HBaseRangeMin: -433
+    m_HBaseRangeMax: 433
+    m_VBaseRangeMin: -277
+    m_VBaseRangeMax: 277
+    m_HAllowExceedBaseRangeMin: 1
+    m_HAllowExceedBaseRangeMax: 1
+    m_VAllowExceedBaseRangeMin: 1
+    m_VAllowExceedBaseRangeMax: 1
+    m_ScaleWithWindow: 0
+    m_HSlider: 0
+    m_VSlider: 0
+    m_IgnoreScrollWheelUntilClicked: 0
+    m_EnableMouseInput: 0
+    m_EnableSliderZoomHorizontal: 0
+    m_EnableSliderZoomVertical: 0
+    m_UniformScale: 1
+    m_UpDirection: 1
+    m_DrawArea:
+      serializedVersion: 2
+      x: 0
+      y: 21
+      width: 866
+      height: 554
+    m_Scale: {x: 1, y: 1}
+    m_Translation: {x: 433, y: 277}
+    m_MarginLeft: 0
+    m_MarginRight: 0
+    m_MarginTop: 0
+    m_MarginBottom: 0
+    m_LastShownAreaInsideMargins:
+      serializedVersion: 2
+      x: -433
+      y: -277
+      width: 866
+      height: 554
+    m_MinimalGUI: 1
+  m_defaultScale: 1
+  m_LastWindowPixelSize: {x: 866, y: 575}
+  m_ClearInEditMode: 1
+  m_NoCameraWarning: 1
+  m_LowResolutionForAspectRatios: 01000000000000000000
+  m_XRRenderMode: 0
+  m_RenderTexture: {fileID: 0}
+--- !u!114 &10
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12914, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Animator
+    m_Image: {fileID: -1673928668082335149, guid: 0000000000000000d000000000000000, type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 292
+    y: 81
+    width: 862
+    height: 575
+  m_SerializedDataModeController:
+    m_DataMode: 0
+    m_PreferredDataMode: 0
+    m_SupportedDataModes: 
+    isAutomatic: 1
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+    m_OverlaysVisible: 1
+  m_ViewTransforms:
+    m_KeySerializationHelper:
+    - {fileID: -639501517232015706, guid: 743954929fe863d4fbe449d3341cb554, type: 2}
+    - {fileID: 1177055703610581213, guid: 3027174c4b5dbf844a1fb4d387d9c386, type: 2}
+    m_ValueSerializationHelper:
+    - e00: 0.85
+      e01: 0
+      e02: 0
+      e03: -109.85003
+      e10: 0
+      e11: 0.85
+      e12: 0
+      e13: 202.80002
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    - e00: 0.7964669
+      e01: 0
+      e02: 0
+      e03: 33.22589
+      e10: 0
+      e11: 0.7964669
+      e12: 0
+      e13: 136.55827
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+  m_PreviewAnimator: {fileID: 0}
+  m_AnimatorController: {fileID: 9100000, guid: 3027174c4b5dbf844a1fb4d387d9c386, type: 2}
+  m_BreadCrumbs:
+  - m_Target: {fileID: 1177055703610581213, guid: 3027174c4b5dbf844a1fb4d387d9c386, type: 2}
+    m_ScrollPosition: {x: 0, y: 0}
+  stateMachineGraph: {fileID: 0}
+  stateMachineGraphGUI: {fileID: 0}
+  blendTreeGraph: {fileID: 0}
+  blendTreeGraphGUI: {fileID: 0}
+  m_AutoLiveLink: 1
+  m_MiniTool: 1
+  m_LockTracker:
+    m_IsLocked: 0
+  m_CurrentEditor: 1
+  m_LayerEditor:
+    m_SelectedLayerIndex: 0
+--- !u!114 &11
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: ProjectBrowser
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 596
+    width: 1151
+    height: 305
+  m_MinSize: {x: 231, y: 271}
+  m_MaxSize: {x: 10001, y: 10021}
+  m_ActualView: {fileID: 12}
+  m_Panes:
+  - {fileID: 12}
+  - {fileID: 13}
+  m_Selected: 0
+  m_LastSelected: 0
+--- !u!114 &12
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12014, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 230, y: 250}
+  m_MaxSize: {x: 10000, y: 10000}
+  m_TitleContent:
+    m_Text: Project
+    m_Image: {fileID: -5467254957812901981, guid: 0000000000000000d000000000000000, type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 9
+    y: 677
+    width: 1150
+    height: 284
+  m_SerializedDataModeController:
+    m_DataMode: 0
+    m_PreferredDataMode: 0
+    m_SupportedDataModes: 
+    isAutomatic: 1
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+    m_OverlaysVisible: 1
+  m_SearchFilter:
+    m_NameFilter: 
+    m_ClassNames: []
+    m_AssetLabels: []
+    m_AssetBundleNames: []
+    m_ReferencingInstanceIDs: 
+    m_SceneHandles: 
+    m_ShowAllHits: 0
+    m_SkipHidden: 0
+    m_SearchArea: 1
+    m_Folders:
+    - Assets/Prefabs
+    m_Globs: []
+    m_OriginalText: 
+    m_ImportLogFlags: 0
+    m_FilterByTypeIntersection: 0
+  m_ViewMode: 1
+  m_StartGridSize: 64
+  m_LastFolders:
+  - Assets/Prefabs
+  m_LastFoldersGridSize: -1
+  m_LastProjectPath: D:\MarioGame\marioGame
+  m_LockTracker:
+    m_IsLocked: 0
+  m_FolderTreeState:
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: 22620000
+    m_LastClickedID: 25122
+    m_ExpandedIDs: 00000000fc610000fe6100000062000002620000046200000662000000ca9a3b
+    m_RenameOverlay:
+      m_UserAcceptedRename: 0
+      m_Name: 
+      m_OriginalName: 
+      m_EditFieldRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      m_UserData: 0
+      m_IsWaitingForDelay: 0
+      m_IsRenaming: 0
+      m_OriginalEventType: 11
+      m_IsRenamingFilename: 1
+      m_ClientGUIView: {fileID: 11}
+    m_SearchString: 
+    m_CreateAssetUtility:
+      m_EndAction: {fileID: 0}
+      m_InstanceID: 0
+      m_Path: 
+      m_Icon: {fileID: 0}
+      m_ResourceFile: 
+  m_AssetTreeState:
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: 
+    m_LastClickedID: 0
+    m_ExpandedIDs: 00000000fc610000fe61000000620000026200000462000006620000
+    m_RenameOverlay:
+      m_UserAcceptedRename: 0
+      m_Name: 
+      m_OriginalName: 
+      m_EditFieldRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      m_UserData: 0
+      m_IsWaitingForDelay: 0
+      m_IsRenaming: 0
+      m_OriginalEventType: 11
+      m_IsRenamingFilename: 1
+      m_ClientGUIView: {fileID: 0}
+    m_SearchString: 
+    m_CreateAssetUtility:
+      m_EndAction: {fileID: 0}
+      m_InstanceID: 0
+      m_Path: 
+      m_Icon: {fileID: 0}
+      m_ResourceFile: 
+  m_ListAreaState:
+    m_SelectedInstanceIDs: 52610000
+    m_LastClickedInstanceID: 24914
+    m_HadKeyboardFocusLastEvent: 1
+    m_ExpandedInstanceIDs: c6230000a4620000246100002a6100002c6100001e6a000000000000ae6b0000d661000056610000946100006c6a00009662000092610000
+    m_RenameOverlay:
+      m_UserAcceptedRename: 0
+      m_Name: 
+      m_OriginalName: 
+      m_EditFieldRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      m_UserData: 0
+      m_IsWaitingForDelay: 0
+      m_IsRenaming: 0
+      m_OriginalEventType: 11
+      m_IsRenamingFilename: 1
+      m_ClientGUIView: {fileID: 11}
+    m_CreateAssetUtility:
+      m_EndAction: {fileID: 0}
+      m_InstanceID: 0
+      m_Path: 
+      m_Icon: {fileID: 0}
+      m_ResourceFile: 
+    m_NewAssetIndexInList: -1
+    m_ScrollPosition: {x: 0, y: 0}
+    m_GridSize: 64
+  m_SkipHiddenPackages: 0
+  m_DirectoriesAreaWidth: 207
+--- !u!114 &13
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12003, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Console
+    m_Image: {fileID: -4327648978806127646, guid: 0000000000000000d000000000000000, type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 9
+    y: 677
+    width: 1146
+    height: 284
+  m_SerializedDataModeController:
+    m_DataMode: 0
+    m_PreferredDataMode: 0
+    m_SupportedDataModes: 
+    isAutomatic: 1
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+    m_OverlaysVisible: 1
+--- !u!114 &14
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: Window
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 1151
+    y: 0
+    width: 511
+    height: 901
+  m_MinSize: {x: 101, y: 121}
+  m_MaxSize: {x: 4001, y: 4021}
+  m_ActualView: {fileID: 2}
+  m_Panes:
+  - {fileID: 2}
+  m_Selected: 0
+  m_LastSelected: 0
