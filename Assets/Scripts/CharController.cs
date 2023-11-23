@@ -65,8 +65,16 @@ public class CharController : MonoBehaviour
             isGrounded = false;
         }
     }
-    
-    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.transform.gameObject.CompareTag("Tube"))
+        {
+            print("sda");
+            print("Tube");
+        }
+    } 
+}  
 
 
 

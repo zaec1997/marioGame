@@ -19,8 +19,8 @@ public class IsGrounded : MonoBehaviour
 
     public static bool ItIsGrounded(Vector2 pos)
     {
-        RaycastHit2D isGrounded = Physics2D.Raycast(pos, Vector2.down, 0.1f);
-        Debug.DrawRay(pos, Vector2.down*0.1f, Color.red, 10.0f);
+        RaycastHit2D isGrounded = Physics2D.Raycast(pos, Vector2.down, 0.25f);
+        Debug.DrawRay(pos, Vector2.down*0.25f, Color.red, 10.0f);
         if (!ReferenceEquals(isGrounded.transform, null))
         {
             return true;

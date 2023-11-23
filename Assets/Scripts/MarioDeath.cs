@@ -42,10 +42,10 @@ public class MarioDeath : MonoBehaviour
     private void OnCollisionEnter2D(Collision2D collision)
     {
         
-        print("Death");
+
         if (collision.collider.gameObject.transform.CompareTag("Enemy"))
         {
-            print("Death2");
+            print("Death");
             Death();
         }
        
