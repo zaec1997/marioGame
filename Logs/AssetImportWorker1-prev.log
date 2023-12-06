@@ -15,7 +15,7 @@ D:/MarioGame/marioGame
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-55613
+10110
 Successfully changed project path to: D:/MarioGame/marioGame
 D:/MarioGame/marioGame
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,12 +49,12 @@ D:/MarioGame/marioGame
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [16668] Host "[IP] 192.168.0.102 [Port] 0 [Flags] 2 [Guid] 1967197577 [EditorId] 1967197577 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-JS1ND4A) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [10360] Host "[IP] 192.168.0.102 [Port] 0 [Flags] 2 [Guid] 1457693703 [EditorId] 1457693703 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-JS1ND4A) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [16668] Host "[IP] 192.168.0.102 [Port] 0 [Flags] 2 [Guid] 1967197577 [EditorId] 1967197577 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-JS1ND4A) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [10360] Host "[IP] 192.168.0.102 [Port] 0 [Flags] 2 [Guid] 1457693703 [EditorId] 1457693703 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-JS1ND4A) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 23 workers.
-Refreshing native plugins compatible for Editor in 19.43 ms, found 6 plugins.
+Refreshing native plugins compatible for Editor in 16.00 ms, found 6 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.11f1 (d00248457e15)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.11f1/Editor/Data/Resources/UnitySubsystems
@@ -70,19 +70,23 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.11f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.11f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56500
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56140
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.11f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.11f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.012882 seconds.
-- Loaded All Assemblies, in  0.551 seconds
+Registered in 0.015159 seconds.
+- Loaded All Assemblies, in  0.564 seconds
 Native extension for WindowsStandalone target not found
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+Native extension for iOS target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.401 seconds
-Domain Reload Profiling: 951ms
-	BeginReloadAssembly (164ms)
+- Finished resetting the current domain, in  0.446 seconds
+Domain Reload Profiling: 1008ms
+	BeginReloadAssembly (165ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
@@ -90,26 +94,26 @@ Domain Reload Profiling: 951ms
 		CreateAndSetChildDomain (1ms)
 	RebuildCommonClasses (55ms)
 	RebuildNativeTypeToScriptingClass (19ms)
-	initialDomainReloadingComplete (89ms)
-	LoadAllAssembliesAndSetupDomain (222ms)
+	initialDomainReloadingComplete (93ms)
+	LoadAllAssembliesAndSetupDomain (230ms)
 		LoadAssemblies (162ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (219ms)
-			TypeCache.Refresh (217ms)
-				TypeCache.ScanAssembly (195ms)
+		AnalyzeDomain (227ms)
+			TypeCache.Refresh (225ms)
+				TypeCache.ScanAssembly (203ms)
 			ScanForSourceGeneratedMonoScriptInfo (1ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (402ms)
+	FinalizeReload (446ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (308ms)
+		SetupLoadedEditorAssemblies (353ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (16ms)
+			InitializePlatformSupportModulesInManaged (46ms)
 			SetLoadedEditorAssemblies (8ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (3ms)
-			ProcessInitializeOnLoadAttributes (205ms)
-			ProcessInitializeOnLoadMethodAttributes (76ms)
+			ProcessInitializeOnLoadAttributes (206ms)
+			ProcessInitializeOnLoadMethodAttributes (88ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -117,56 +121,57 @@ Domain Reload Profiling: 951ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.972 seconds
-Refreshing native plugins compatible for Editor in 5.99 ms, found 6 plugins.
+- Loaded All Assemblies, in  1.002 seconds
+Refreshing native plugins compatible for Editor in 6.20 ms, found 6 plugins.
 Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
 Native extension for WebGL target not found
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.962 seconds
-Domain Reload Profiling: 1933ms
-	BeginReloadAssembly (225ms)
+- Finished resetting the current domain, in  1.004 seconds
+Domain Reload Profiling: 2004ms
+	BeginReloadAssembly (224ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (9ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (32ms)
+		CreateAndSetChildDomain (33ms)
 	RebuildCommonClasses (53ms)
 	RebuildNativeTypeToScriptingClass (18ms)
-	initialDomainReloadingComplete (64ms)
-	LoadAllAssembliesAndSetupDomain (609ms)
-		LoadAssemblies (448ms)
+	initialDomainReloadingComplete (63ms)
+	LoadAllAssembliesAndSetupDomain (640ms)
+		LoadAssemblies (467ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (290ms)
-			TypeCache.Refresh (243ms)
-				TypeCache.ScanAssembly (218ms)
+		AnalyzeDomain (301ms)
+			TypeCache.Refresh (255ms)
+				TypeCache.ScanAssembly (229ms)
 			ScanForSourceGeneratedMonoScriptInfo (37ms)
 			ResolveRequiredComponents (8ms)
-	FinalizeReload (963ms)
+	FinalizeReload (1005ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (717ms)
+		SetupLoadedEditorAssemblies (752ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (10ms)
-			SetLoadedEditorAssemblies (7ms)
+			InitializePlatformSupportModulesInManaged (37ms)
+			SetLoadedEditorAssemblies (8ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (107ms)
-			ProcessInitializeOnLoadAttributes (528ms)
-			ProcessInitializeOnLoadMethodAttributes (56ms)
+			BeforeProcessingInitializeOnLoad (110ms)
+			ProcessInitializeOnLoadAttributes (529ms)
+			ProcessInitializeOnLoadMethodAttributes (59ms)
 			AfterProcessingInitializeOnLoad (9ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (8ms)
+		AwakeInstancesAfterBackupRestoration (12ms)
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 6.42 ms, found 6 plugins.
+Refreshing native plugins compatible for Editor in 6.24 ms, found 6 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4335 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 81 unused Assets / (204.3 KB). Loaded Objects now: 4785.
-Memory consumption went from 150.7 MB to 150.5 MB.
-Total: 4.973200 ms (FindLiveObjects: 0.461700 ms CreateObjectMapping: 0.286600 ms MarkObjects: 3.942900 ms  DeleteObjects: 0.281000 ms)
+Unloading 4346 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 80 unused Assets / (176.6 KB). Loaded Objects now: 4804.
+Memory consumption went from 151.4 MB to 151.2 MB.
+Total: 7.380200 ms (FindLiveObjects: 0.457900 ms CreateObjectMapping: 0.294200 ms MarkObjects: 6.352800 ms  DeleteObjects: 0.273800 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -183,105 +188,25 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 431738.617897 seconds.
-  path: Assets/Prefabs/Coin.prefab
-  artifactKey: Guid(fba6032f7d78dba48ba66e1d04bcce84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Coin.prefab using Guid(fba6032f7d78dba48ba66e1d04bcce84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '752e321248b0af4348971fced803c7ab') in 0.152159 seconds
+  Time since last request: 847923.189559 seconds.
+  path: Assets/Joystick Pack/Prefabs/Variable Joystick.prefab
+  artifactKey: Guid(ec536a7718376554185e4a856d5ae230) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Joystick Pack/Prefabs/Variable Joystick.prefab using Guid(ec536a7718376554185e4a856d5ae230) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb66bf02e0737b667b8dbaeb4c599709') in 0.041364 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Joystick Pack/Prefabs/Fixed Joystick.prefab
+  artifactKey: Guid(aaa2c939c0359ac4dbce3f49e8b90252) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Joystick Pack/Prefabs/Fixed Joystick.prefab using Guid(aaa2c939c0359ac4dbce3f49e8b90252) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2988393e85dc89ec250f6d948c930ab7') in 0.002948 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 13
 ========================================================================
 Received Import Request.
-  Time since last request: 19.406086 seconds.
-  path: Assets/Prefabs/Coin.prefab
-  artifactKey: Guid(fba6032f7d78dba48ba66e1d04bcce84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Coin.prefab using Guid(fba6032f7d78dba48ba66e1d04bcce84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b72e477d2fbc93bd5802f3d6183d9979') in 0.009500 seconds
+  Time since last request: 0.000014 seconds.
+  path: Assets/Joystick Pack/Prefabs/Floating Joystick.prefab
+  artifactKey: Guid(0d230cc8be529a542a08cb878ab14b18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Joystick Pack/Prefabs/Floating Joystick.prefab using Guid(0d230cc8be529a542a08cb878ab14b18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae1e75b92db8c402e759fe1f99fb3766') in 0.002602 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 13
-========================================================================
-Received Import Request.
-  Time since last request: 1.379682 seconds.
-  path: Assets/Prefabs/Coin.prefab
-  artifactKey: Guid(fba6032f7d78dba48ba66e1d04bcce84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Coin.prefab using Guid(fba6032f7d78dba48ba66e1d04bcce84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abef8f8afb462eff51edcb9409a86046') in 0.008578 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 13
-========================================================================
-Received Import Request.
-  Time since last request: 4.280282 seconds.
-  path: Assets/Prefabs/Coin.prefab
-  artifactKey: Guid(fba6032f7d78dba48ba66e1d04bcce84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Coin.prefab using Guid(fba6032f7d78dba48ba66e1d04bcce84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c40dff5d5a663a5c29dea22aff03e13') in 0.007793 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 13
-========================================================================
-Received Import Request.
-  Time since last request: 1.190567 seconds.
-  path: Assets/Prefabs/Coin.prefab
-  artifactKey: Guid(fba6032f7d78dba48ba66e1d04bcce84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Coin.prefab using Guid(fba6032f7d78dba48ba66e1d04bcce84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffd319a7ae0b3329187b6ee2b946998b') in 0.008109 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 13
-========================================================================
-Received Import Request.
-  Time since last request: 1.013148 seconds.
-  path: Assets/Prefabs/Coin.prefab
-  artifactKey: Guid(fba6032f7d78dba48ba66e1d04bcce84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Coin.prefab using Guid(fba6032f7d78dba48ba66e1d04bcce84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbb17950bda6440f220c2fb355b58253') in 0.007922 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 13
-========================================================================
-Received Import Request.
-  Time since last request: 35.340042 seconds.
-  path: Assets/Prefabs/Coin.prefab
-  artifactKey: Guid(fba6032f7d78dba48ba66e1d04bcce84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Coin.prefab using Guid(fba6032f7d78dba48ba66e1d04bcce84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b29ff17cf5cfb5042e28890386c5444c') in 0.008036 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 12
-========================================================================
-Received Import Request.
-  Time since last request: 9.138831 seconds.
-  path: Assets/Prefabs/Coin.prefab
-  artifactKey: Guid(fba6032f7d78dba48ba66e1d04bcce84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Coin.prefab using Guid(fba6032f7d78dba48ba66e1d04bcce84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5215bade18c03239fb0318cbd592a0b') in 0.007905 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 12
-========================================================================
-Received Import Request.
-  Time since last request: 1.807441 seconds.
-  path: Assets/Prefabs/Coin.prefab
-  artifactKey: Guid(fba6032f7d78dba48ba66e1d04bcce84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Coin.prefab using Guid(fba6032f7d78dba48ba66e1d04bcce84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5aad49fe4cb81de569e03b2baa919e99') in 0.008632 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 12
-========================================================================
-Received Import Request.
-  Time since last request: 1.620519 seconds.
-  path: Assets/Prefabs/Coin.prefab
-  artifactKey: Guid(fba6032f7d78dba48ba66e1d04bcce84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Coin.prefab using Guid(fba6032f7d78dba48ba66e1d04bcce84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c43ad8e155727eb262508e301ca98f8') in 0.007768 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 12
-========================================================================
-Received Import Request.
-  Time since last request: 3.060916 seconds.
-  path: Assets/Prefabs/Coin.prefab
-  artifactKey: Guid(fba6032f7d78dba48ba66e1d04bcce84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Coin.prefab using Guid(fba6032f7d78dba48ba66e1d04bcce84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aeda41806d49aa07069a6ca63b433658') in 0.008180 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 12
-========================================================================
-Received Import Request.
-  Time since last request: 70.391405 seconds.
-  path: Assets/Prefabs/Coin.prefab
-  artifactKey: Guid(fba6032f7d78dba48ba66e1d04bcce84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Coin.prefab using Guid(fba6032f7d78dba48ba66e1d04bcce84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a03d72ba1295ace4e05750e5cb2e5929') in 0.008804 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 12
-========================================================================
-Received Import Request.
-  Time since last request: 7.552377 seconds.
-  path: Assets/Prefabs/Coin.prefab
-  artifactKey: Guid(fba6032f7d78dba48ba66e1d04bcce84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Coin.prefab using Guid(fba6032f7d78dba48ba66e1d04bcce84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '225b0b197ec48a86dbcde1348c21e71d') in 0.007897 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 12
+Number of asset objects unloaded after import = 17
